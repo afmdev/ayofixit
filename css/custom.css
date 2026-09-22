@@ -6667,14 +6667,3 @@ header.main-header .header-sticky.active{
         height: 350px;
     }
 }
-/* Ayofixit logo: SVG cuadrado 175x175 en slots pensados para 173x50 */
-.navbar-brand img{
-	height: 56px;
-	width: auto;
-}
-
-.footer-logo img{
-	height: 72px;
-	width: auto;
-	max-width: none;
-}
