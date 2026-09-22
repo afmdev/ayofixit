@@ -59,14 +59,7 @@
 					<div class="collapse navbar-collapse main-menu">
                         <div class="nav-menu-wrapper">
                             <ul class="navbar-nav mr-auto" id="menu">
-                                <li class="nav-item submenu"><a class="nav-link" href="./">Home</a>
-                                    <ul>
-                                        <li class="nav-item"><a class="nav-link" href="index.html">Home - Main</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="index-image.html">Home - Image</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="index-video.html">Home - Video</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="index-slider.html">Home - Slider</a></li>
-                                    </ul>
-                                </li>                                
+                                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>                                
                                 <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
                                 <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
                                 <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
@@ -105,10 +98,23 @@
 	<!-- Header End -->
 
     <!-- Hero Section Start -->
-    <div class="hero dark-section">
+    <div class="hero hero-bg-image hero-video dark-section">
+        <!-- Video Start -->
+        <div class="hero-bg-video">
+            <!-- Selfhosted Video Start -->
+            <!-- <video autoplay muted loop id="myvideo"><source src="images/hero-bg-video.mp4" type="video/mp4"></video> -->
+            <video autoplay muted loop id="myvideo"><source src="videos/hero-video-1.mp4" type="video/mp4"></video>
+            
+            <!-- Selfhosted Video End -->
+
+            <!-- Youtube Video Start -->
+            <!-- <div id="herovideo" class="player" data-property="{videoURL:'OjTRVpgtcG4',containment:'.hero-video', showControls:false, autoPlay:true, loop:true, vol:0, mute:false, startAt:0,  stopAt:296, opacity:1, addRaster:true, quality:'large', optimizeDisplay:true}"></div> -->
+            <!-- Youtube Video End -->
+        </div>
+        <!-- Video End -->
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-6">
+                <div class="col-lg-8 offset-lg-2">
                     <!-- Hero Content Start -->
                     <div class="hero-content">
                         <!-- Section Title Start -->
@@ -151,33 +157,8 @@
                             <!-- Hero Counter Box End -->            
                         </div>
                         <!-- Hero Content Body End -->
-
-                        <!-- Hero List Start -->
-                        <div class="hero-list wow fadeInUp" data-wow-delay="0.6s">
-                            <ul>
-                                <li>Comprehensive Diagnostics Fixes</li>
-                                <li>High-Quality Replacement Parts</li>
-                            </ul>
-                        </div>
-                        <!-- Hero List End -->
                     </div>
                     <!-- Hero Content End -->
-                </div>
-
-                <div class="col-lg-6">
-                    <!-- Hero Image Start -->
-                    <div class="hero-image">
-                        <figure>
-                            <img src="images/hero-image.png" alt="">
-                        </figure>
-
-                        <div class="learn-more-circle">
-                            <a href="about.html">
-                                <img src="images/learn-more-circle-accent.svg" alt="">
-                            </a>
-                        </div>
-                    </div>
-                    <!-- Hero Image End -->
                 </div>
             </div>
         </div>
