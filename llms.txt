@@ -1,0 +1,25 @@
+# AYOFixIt
+
+> Computer, laptop, phone and tablet repair across the island of Tenerife, Canary Islands, Spain. Every device is diagnosed, repaired and tested personally by technician Ayoze Perez: no franchise, no middlemen. Free quote, fixed price agreed before any work starts.
+
+- Technician: Ayoze Perez (founder, sole technician)
+- Area served: the whole island of Tenerife (Santa Cruz, La Laguna, north and south), on site or with collection and delivery
+- Phone / WhatsApp: +34 660 12 17 73
+- Email: info@ayofixit.com
+- Devices: desktops, laptops, all-in-ones, phones, tablets (HP, Lenovo, Dell, Asus, Acer, MSI, Apple, Samsung, Xiaomi and custom-built PCs)
+- How it works: describe the fault -> free diagnostic -> one fixed price for parts and labour -> repair only after you approve -> tested under load and handed back with a note of what was done
+- Parts and warranty: original (OEM) parts whenever available, tested premium-grade equivalents otherwise; workmanship guaranteed, parts keep their manufacturer warranty
+- Data: files are never copied or shared; disks are imaged first on any risky job
+
+## Pages
+
+- [Home](https://www.ayofixit.com/): what AYOFixIt is, how a repair works and the main FAQs.
+- [Services](https://www.ayofixit.com/services/): every repair service, brands covered and how to book.
+- [Computer hardware repair](https://www.ayofixit.com/services/computer-hardware.html): component-level diagnostics and repair of motherboards, GPUs, drives, memory, cooling and power supplies. Most repairs 24-48h.
+- [Battery replacement](https://www.ayofixit.com/services/battery-replacement.html): phone, laptop and tablet batteries. Phones usually within an hour, laptops two to four hours; swollen cells handled and recycled safely.
+- [Screen replacement](https://www.ayofixit.com/services/laptop-screen-replacement.html): laptop, phone and tablet panels, plus cheaper cable or hinge fixes for flickering screens. Same day if the panel is in stock.
+- [Software troubleshooting](https://www.ayofixit.com/services/software-troubleshooting.html): virus removal, slow machines, boot failures, Windows and macOS reinstalls. Backup taken first, most cleanups within 24h.
+- [Custom PC builds](https://www.ayofixit.com/services/custom-pc-builds.html): gaming rigs, editing workstations and quiet office builds, assembled and stress tested. Usually three to five working days; upgrades of existing PCs too.
+- [About](https://www.ayofixit.com/about.html): who Ayoze is and how he works.
+- [FAQs](https://www.ayofixit.com/faqs.html): prices and quotes, turnaround times, data privacy, parts, warranty, island coverage and whether a device is worth repairing.
+- [Contact](https://www.ayofixit.com/contact.html): free quote by WhatsApp, phone or email.

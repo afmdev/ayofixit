@@ -1,17 +1,103 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="en">
 <head>
 	<!-- Meta -->
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-	<meta name="description" content="">
-	<meta name="keywords" content="">
-	<meta name="author" content="Awaiken">
+	<meta name="description" content="Meet Ayoze Perez, the technician behind AYOFixIt. Every repair in Tenerife is diagnosed, fixed and tested by me. No middlemen and no franchise.">
+	<meta name="keywords" content="IT technician Tenerife, computer technician Tenerife, Ayoze Perez, AYOFixIt">
+	<meta name="author" content="Ayoze Perez - AYOFixIt">
 	<!-- Page Title -->
-    <title>Ayofixit - Mobile & Computer Repair Services</title>
+    <title>Ayoze Perez, IT Technician in Tenerife | AYOFixIt</title>
+	<!-- Open Graph / Social -->
+	<link rel="canonical" href="about.html">
+	<meta property="og:type" content="article">
+	<meta property="og:site_name" content="AYOFixIt">
+	<meta property="og:locale" content="en_GB">
+	<meta property="og:title" content="Ayoze Perez, IT Technician in Tenerife | AYOFixIt">
+	<meta property="og:description" content="Meet Ayoze Perez, the technician behind AYOFixIt. Every repair in Tenerife is done and tested by me.">
+	<meta property="og:image" content="images/open-graph.jpg">
+	<meta property="og:image:type" content="image/jpeg">
+	<meta property="og:image:width" content="1200">
+	<meta property="og:image:height" content="630">
+	<meta property="og:image:alt" content="AYOFixIt - computer, laptop and phone repair in Tenerife">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Ayoze Perez, IT Technician in Tenerife | AYOFixIt">
+	<meta name="twitter:description" content="Meet Ayoze Perez, the technician behind AYOFixIt. Every repair in Tenerife is done and tested by me.">
+	<meta name="twitter:image" content="images/open-graph.jpg">
+	<meta name="twitter:image:alt" content="AYOFixIt - computer, laptop and phone repair in Tenerife">
+	<meta name="robots" content="index, follow">
+	<!-- Structured Data -->
+	<script type="application/ld+json">
+	{
+	  "@context": "https://schema.org",
+	  "@graph": [
+	    {
+	      "@type": "WebSite",
+	      "@id": "#website",
+	      "url": "./",
+	      "name": "AYOFixIt",
+	      "description": "Computer, laptop, phone and tablet repair across the island of Tenerife, carried out personally by technician Ayoze Perez.",
+	      "inLanguage": "en",
+	      "publisher": {
+	        "@id": "#business"
+	      }
+	    },
+	    {
+	      "@type": "LocalBusiness",
+	      "@id": "#business",
+	      "name": "AYOFixIt",
+	      "description": "Computer, laptop, phone and tablet repair across the island of Tenerife, carried out personally by technician Ayoze Perez.",
+	      "url": "./",
+	      "telephone": "+34660121773",
+	      "email": "info@ayofixit.com",
+	      "image": "images/open-graph.jpg",
+	      "logo": "images/logo-dark.svg",
+	      "founder": {
+	        "@type": "Person",
+	        "name": "Ayoze Perez"
+	      },
+	      "areaServed": {
+	        "@type": "Place",
+	        "name": "Tenerife, Canary Islands, Spain"
+	      },
+	      "sameAs": [
+	        "https://www.facebook.com/ayozefixit/"
+	      ],
+	      "knowsAbout": [
+	        "Computer hardware repair",
+	        "Battery replacement",
+	        "Laptop screen replacement",
+	        "Phone screen repair",
+	        "Custom PC builds",
+	        "Virus removal"
+	      ]
+	    },
+	    {
+	      "@type": "WebPage",
+	      "@id": "#webpage",
+	      "url": "about.html",
+	      "name": "Ayoze Perez, IT Technician in Tenerife | AYOFixIt",
+	      "description": "Meet Ayoze Perez, the technician behind AYOFixIt. Every repair in Tenerife is diagnosed, fixed and tested by me. No middlemen and no franchise.",
+	      "isPartOf": {
+	        "@id": "#website"
+	      },
+	      "about": {
+	        "@id": "#business"
+	      },
+	      "primaryImageOfPage": "images/open-graph.jpg",
+	      "inLanguage": "en"
+	    }
+	  ]
+	}
+	</script>
 	<!-- Favicon Icon -->
-	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
+	<link rel="icon" href="images/favicon/favicon.ico" sizes="any">
+	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+	<link rel="apple-touch-icon" href="images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="images/favicon/android-icon-192x192.png">
 	<!-- Google Fonts Css-->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,14 +106,8 @@
 	<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
 	<!-- SlickNav Css -->
 	<link href="css/slicknav.min.css" rel="stylesheet">
-	<!-- Swiper Css -->
-	<link rel="stylesheet" href="css/swiper-bundle.min.css">
 	<!-- Font Awesome Icon Css-->
 	<link href="css/all.min.css" rel="stylesheet" media="screen">
-	<!-- Animated Css -->
-	<link href="css/animate.css" rel="stylesheet">
-    <!-- Magnific Popup Core Css File -->
-	<link rel="stylesheet" href="css/magnific-popup.css">
 	<!-- Mouse Cursor Css File -->
 	<link rel="stylesheet" href="css/mousecursor.css">
 	<!-- Main Custom Css -->
@@ -45,13 +125,13 @@
 	<!-- Preloader End -->
 
     <!-- Header Start -->
-	<header class="main-header">
+	<header class="main-header active-sticky-header">
 		<div class="header-sticky">
 			<nav class="navbar navbar-expand-lg">
 				<div class="container">
 					<!-- Logo Start -->
 					<a class="navbar-brand" href="./">
-						<img src="images/logo.svg" alt="Logo">
+						<img src="images/logo-dark.svg" alt="Logo">
 					</a>
 					<!-- Logo End -->
 
@@ -60,29 +140,17 @@
                         <div class="nav-menu-wrapper">
                             <ul class="navbar-nav mr-auto" id="menu">
                                 <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>                                
-                                <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
-                                <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
-                                <li class="nav-item submenu"><a class="nav-link" href="#">Pages</a>
-                                    <ul>                                        
-                                        <li class="nav-item"><a class="nav-link" href="service-single.html">Service Details</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="project-single.html">Project Details</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="team.html">Team</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="team-single.html">Team Details</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="testimonials.html">Testimonials</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="image-gallery.html">Image Gallery</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="video-gallery.html">Video Gallery</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="faqs.html">FAQs</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="404.html">404</a></li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                                <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
+                                <li class="nav-item"><a class="nav-link" href="services/index.html">Services</a></li>
+                                <li class="nav-item"><a class="nav-link" href="faqs.html">FAQs</a></li>
+
+                                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
                             </ul>
                         </div>
 
                         <!-- Header Btn Start -->
                         <div class="header-btn">
-                            <a href="contact.html" class="btn-default btn-highlighted">Request a Free Quote</a>
+                            <a href="contact.html" class="btn-default btn-highlighted">Get a Free Quote</a>
                         </div>
                         <!-- Header Btn End -->                
 					</div>
@@ -102,11 +170,11 @@
                 <div class="col-lg-12">
                     <!-- Page Header Box Start -->
                     <div class="page-header-box">
-                        <h1 class="text-anime-style-3" data-cursor="-opaque">About us</h1>
+                        <h1 class="text-anime-style-3" data-cursor="-opaque">Ayoze Perez, your technician in Tenerife</h1>
                         <nav class="wow fadeInUp">
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="./">home</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">about us</li>
+                                <li class="breadcrumb-item active" aria-current="page">about me</li>
                             </ol>
                         </nav>
                     </div>
@@ -117,1481 +185,137 @@
     </div>
     <!-- Page Header End -->
 
-    <!-- About Us Section Start -->
-    <div class="about-us">
+    <!-- Page Team Single Start -->
+    <div class="page-team-single">
         <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6">
-                    <!-- About Us Images Start -->
-                    <div class="about-us-images">
-                        <!-- About Image Counter Start -->
-                        <div class="about-image-counter">
-                            <!-- About Image Start -->
-                            <div class="about-img-1">
-                                <figure class="image-anime reveal">
-                                    <img src="images/about-img-1.jpg" alt="">
-                                </figure>
-                            </div>
-                            <!-- About Image End -->
-                            
-                            <!-- About Counter Box Start -->
-                            <div class="about-counter-box">
-                                <div class="about-counter-header">
-                                    <h2><span class="counter">25</span>+</h2>
-                                    <p>Years of experience</p>
-                                </div>
-                                <div class="about-counter-body">
-                                    <a href="contact.html">
-                                        <img src="images/learn-more-circle.svg" alt="">
-                                    </a>
-                                </div>
-                                <div class="about-counter-footer">
-                                    <h3>24/7 repair support</h3>
-                                </div>
-                            </div>
-                            <!-- About Counter Box End -->
-                        </div>
-                        <!-- About Image Counter End -->
-                        
-                        <!-- About Image Start -->
-                        <div class="about-img-2">
+            <div class="row">
+                <div class="col-lg-4">
+                    <!-- Page Single Sidebar Start -->
+                    <div class="page-single-sidebar">
+                        <!-- Team Single Image Start -->
+                        <div class="team-single-image">
                             <figure class="image-anime reveal">
-                                <img src="images/about-img-2.jpg" alt="">
+                                <img src="images/team-2.jpg" alt="">
                             </figure>
                         </div>
-                        <!-- About Image End -->
-                    </div>
-                    <!-- About Us Images End -->
-                </div>
+                        <!-- Team Single Image End -->
 
-                <div class="col-lg-6">
-                    <!-- About Us Content Start -->
-                    <div class="about-us-content">
-                        <!-- Section Title Start -->
-                        <div class="section-title">
-                            <h3 class="wow fadeInUp">About us</h3>
-                            <h2 class="text-anime-style-3" data-cursor="-opaque">Your devices our expert repair care</h2>
-                            <p class="wow fadeInUp" data-wow-delay="0.2s">We specialize in fast, reliable repairs for computers and mobile devices. Our skilled technicians ensure your tech is in safe hands, bringing your devices back to life with precision and care.</p>
-                        </div>
-                        <!-- Section Title End -->
-
-                        <!-- About Us Body Start -->
-                        <div class="about-us-body wow fadeInUp" data-wow-delay="0.4s">
-                            <!-- About Body Item Start -->
-                            <div class="about-body-item">
+                        <!-- Sidebar CTA Box Start -->
+                        <div class="faqs-review-box sidebar-cta-box wow fadeInUp" data-wow-delay="0.2s">
+                            <a href="https://wa.me/34660121773?text=Hola%2C%20necesito%20ayuda%20o%20asesoramiento%20con%20un%20equipo%20que%20necesito%20reparar.%20%C2%BFPodr%C3%ADas%20ayudarme%3F%20Gracias%21" target="_blank" rel="nofollow noopener" class="about-body-item">
                                 <div class="icon-box">
-                                    <img src="images/icon-about-body-1.svg" alt="">
+                                    <img src="images/icon-phone.svg" alt="">
                                 </div>
                                 <div class="about-body-title">
-                                    <h3>Fast and reliable service</h3>
+                                    <h3>+34 660 12 17 73</h3>
                                 </div>
-                            </div>
-                            <!-- About Body Item End -->
-                            
-                            <!-- About Body Item Start -->
-                            <div class="about-body-item">
-                                <div class="icon-box">
-                                    <img src="images/icon-about-body-2.svg" alt="">
-                                </div>
-                                <div class="about-body-title">
-                                    <h3>Fast and reliable service</h3>
-                                </div>
-                            </div>
-                            <!-- About Body Item End -->
-                        </div>
-                        <!-- About Us Body End -->
-                        
-                        <!-- About Us List Start -->
-                        <div class="about-us-list wow fadeInUp" data-wow-delay="0.6s">
-                            <ul>
-                                <li>Comprehensive diagnostics fixes</li>
-                                <li>High-quality replacement parts</li>
-                            </ul>
-                        </div>
-                        <!-- About Us List End -->
-                        
-                        <!-- About Us Footer Start -->
-                        <div class="about-us-footer wow fadeInUp" data-wow-delay="0.8s">
-                           <!-- About Author Box Start -->
-                            <div class="about-author-box">
-                                <div class="about-author-image">
-                                    <figure class="image-anime">
-                                        <img src="images/author-1.jpg" alt="">
-                                    </figure>
-                                </div>
-                                
-                                <div class="author-info">
-                                    <h3>Jenny wilson</h3>
-                                    <p>Lead technician</p>
-                                </div>
-                            </div>
-                            <!-- About Author Box End -->
-
-                            <!-- About Us Button Start -->
-                            <div class="about-us-btn">
-                                <a href="contact.html" class="btn-default">Contact us</a>
-                            </div>
-                            <!-- About Us Button End -->
-                        </div>
-                        <!-- About Us Footer End -->
-                    </div>
-                    <!-- About Us Content End -->
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- About Us Section End -->
-
-    <!-- Our Approach Section Start -->
-    <div class="our-approach dark-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <!-- Approach List Start -->
-                    <div class="approach-list-box">
-                        <!-- Approach List Item Start -->
-                        <div class="approach-list-item">
-                            <!-- Approach Image Start -->
-                            <div class="approach-image">
-                                <figure class="iamge-anime reveal">
-                                    <img src="images/approach-img-1.jpg" alt="">
-                                </figure>
-                            </div>
-                            <!-- Approach Image End -->
-
-                            <!-- Approach Item Content Start -->
-                            <div class="approach-item-content">
-                                <!-- Section Title Start -->
-                                <div class="section-title">
-                                    <h3 class="wow fadeInUp">our mission</h3>
-                                    <h2 class="text-anime-style-3" data-cursor="-opaque">Empowering technology with expert repairs</h2>
-                                    <p class="wow fadeInUp" data-wow-delay="0.2s">We provide fast, reliable repairs for computers and mobile Our expert technicians use high-quality parts to ensure your devices function like new.</p>
-                                </div>
-                                <!-- Section Title End -->
-
-                                <!-- Approach Body Start -->
-                                <div class="approach-body wow fadeInUp" data-wow-delay="0.4s">
-                                    <!-- Approach Body Item Start -->
-                                    <div class="approach-body-item">
-                                        <div class="icon-box">
-                                            <img src="images/icon-approach-body-1.svg" alt="">
-                                        </div>
-                                        <div class="approach-body-content">
-                                            <h3>Reliable fixes phones laptops</h3>
-                                        </div>
-                                    </div>
-                                    <!-- Approach Body Item End -->
-                                    
-                                    <!-- Approach Body Item Start -->
-                                    <div class="approach-body-item">
-                                        <div class="icon-box">
-                                            <img src="images/icon-approach-body-2.svg" alt="">
-                                        </div>
-                                        <div class="approach-body-content">
-                                            <h3>Solutions for all your repairs</h3>
-                                        </div>
-                                    </div>
-                                    <!-- Approach Body Item End -->
-                                </div>
-                                <!-- Approach Body End -->
-                            </div>
-                            <!-- Approach Item Content End -->
-                        </div>
-                        <!-- Approach List Item End -->
-                        
-                        <!-- Approach List Item Start -->
-                        <div class="approach-list-item">
-                            <!-- Approach Image Start -->
-                            <div class="approach-image">
-                                <figure class="iamge-anime reveal">
-                                    <img src="images/approach-img-2.jpg" alt="">
-                                </figure>
-                            </div>
-                            <!-- Approach Image End -->
-
-                            <!-- Approach Item Content Start -->
-                            <div class="approach-item-content">
-                                <!-- Section Title Start -->
-                                <div class="section-title">
-                                    <h3 class="wow fadeInUp">our vision</h3>
-                                    <h2 class="text-anime-style-3" data-cursor="-opaque">Expert repairs seamless performance</h2>
-                                    <p class="wow fadeInUp" data-wow-delay="0.2s">We provide fast, reliable repairs for computers and mobile Our expert technicians use high-quality parts to ensure your devices function like new.</p>
-                                </div>
-                                <!-- Section Title End -->
-
-                                <!-- Approach Body Start -->
-                                <div class="approach-body wow fadeInUp" data-wow-delay="0.4s">
-                                    <!-- Approach Body Item Start -->
-                                    <div class="approach-body-item">
-                                        <div class="icon-box">
-                                            <img src="images/icon-approach-body-3.svg" alt="">
-                                        </div>
-                                        <div class="approach-body-content">
-                                            <h3>Expert repairs every device issue</h3>
-                                        </div>
-                                    </div>
-                                    <!-- Approach Body Item End -->
-                                    
-                                    <!-- Approach Body Item Start -->
-                                    <div class="approach-body-item">
-                                        <div class="icon-box">
-                                            <img src="images/icon-approach-body-4.svg" alt="">
-                                        </div>
-                                        <div class="approach-body-content">
-                                            <h3>One-stop service for all tech repairs</h3>
-                                        </div>
-                                    </div>
-                                    <!-- Approach Body Item End -->
-                                </div>
-                                <!-- Approach Body End -->
-                            </div>
-                            <!-- Approach Item Content End -->
-                        </div>
-                        <!-- Approach List Item End -->
-                    </div>
-                    <!-- Approach List End -->
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Our Approach Section End -->
-
-    <!-- Our Excellence Section Start -->
-    <div class="our-excellence">
-        <div class="container">
-            <div class="row section-row align-items-center">
-                <div class="col-lg-6">
-                    <!-- Section Title Start -->
-                    <div class="section-title">
-                        <h3 class="wow fadeInUp">Committed to excellence</h3>
-                        <h2 class="text-anime-style-3" data-cursor="-opaque">Fast, reliable and affordable repairs</h2>
-                    </div>
-                    <!-- Section Title End -->
-                </div>
-
-                <div class="col-lg-6">
-                    <!-- Service Title Content Start -->
-                    <div class="section-title-content wow fadeInUp" data-wow-delay="0.2s">
-                        <p>Keep your mobile safe from damage and security threats with our comprehensiv protection solutions. From screen protectors to security software.</p>
-                    </div>
-                    <!-- Service Title Content End -->
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-lg-12">
-                    <!-- Excellence Image Start -->
-                    <div class="why-choose-image excellence-image">
-                        <figure class="image-anime reveal">
-                            <img src="images/excellence-image.jpg" alt="">
-                        </figure>
-                        
-                        <!-- Video Play Button Start -->
-                        <div class="video-play-button">
-                            <a href="https://www.youtube.com/watch?v=Y-x0efG1seA" class="popup-video" data-cursor-text="Play">
-                                <i class="fa-solid fa-play"></i>
                             </a>
                         </div>
-                        <!-- Video Play Button End -->
+                        <!-- Sidebar CTA Box End -->
                     </div>
-                    <!-- Excellence Image End -->
+                    <!-- Page Single Sidebar End -->
                 </div>
 
-                <div class="col-lg-12">
-                    <!-- Excellence Item List Start -->
-                    <div class="excellence-item-list">
-                        <!-- Excellence Item Start -->
-                        <div class="excellence-item wow fadeInUp">
-                            <div class="icon-box">
-                                <img src="images/icon-excellence-1.svg" alt="">
+                <div class="col-lg-8">
+                    <!-- Team Single Content Start -->
+                    <div class="team-single-content">
+                        <!-- Team Member About Start -->
+                        <div class="team-member-about">
+                            <!-- Section Title Start -->
+                            <div class="section-title">
+                                <h2 class="text-anime-style-3" data-cursor="-opaque">The technician behind AYOFixIt</h2>
+                                <p class="wow fadeInUp">I am Ayoze Perez, the technician behind AYOFixIt. I repair computers, laptops, phones and tablets across Tenerife, and I do every job myself, from the first diagnostic to the final test. No call centre, no middlemen, and no device handed to someone you never meet.</p>
                             </div>
-                            <div class="excellence-item-content">
-                                <h3>Upgrade Solutions</h3>
-                                <p>Whether it's a slow-performing computer a hardware upgrade optimization.</p>
-                            </div>
-                        </div>
-                        <!-- Excellence Item End -->
-                        
-                        <!-- Excellence Item Start -->
-                        <div class="excellence-item wow fadeInUp" data-wow-delay="0.2s">
-                            <div class="icon-box">
-                                <img src="images/icon-excellence-2.svg" alt="">
-                            </div>
-                            <div class="excellence-item-content">
-                                <h3>Enhanced performance</h3>
-                                <p>Whether it's a slow-performing computer a hardware upgrade optimization.</p>
-                            </div>
-                        </div>
-                        <!-- Excellence Item End -->
-                        
-                        <!-- Excellence Item Start -->
-                        <div class="excellence-item wow fadeInUp" data-wow-delay="0.4s">
-                            <div class="icon-box">
-                                <img src="images/icon-excellence-3.svg" alt="">
-                            </div>
-                            <div class="excellence-item-content">
-                                <h3>Advanced system</h3>
-                                <p>Whether it's a slow-performing computer a hardware upgrade optimization.</p>
-                            </div>
-                        </div>
-                        <!-- Excellence Item End -->
-                    </div>
-                    <!-- Excellence Item List End -->
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Our Excellence Section End -->
+                            <!-- Section Title End -->
 
-    <!-- Why Choose Us Section Start -->
-    <div class="why-choose-us dark-section">
-        <div class="container">
-            <div class="row section-row align-items-center">
-                <div class="col-lg-6">
-                    <!-- Section Title Start -->
-                    <div class="section-title">
-                        <h3 class="wow fadeInUp">why choose us</h3>
-                        <h2 class="text-anime-style-3" data-cursor="-opaque">Why trust us for your mobile & computer repairs</h2>
-                    </div>
-                    <!-- Section Title End -->
-                </div>
-
-                <div class="col-lg-6">
-                    <!-- Service Button Start -->
-                    <div class="section-btn wow fadeInUp" data-wow-delay="0.2s">
-                        <a href="contact.html" class="btn-default btn-highlighted">contact us</a>
-                    </div>
-                    <!-- Service Button End -->
-                </div>
-            </div>
-
-            <div class="row align-items-center">
-                <div class="col-lg-12">
-                    <!-- Why Choose Item Box Start -->
-                    <div class="why-choose-item-box">
-                        <!-- Why Choose Item Start -->
-                        <div class="why-choose-item wow fadeInUp">
-                            <div class="icon-box">
-                                <img src="images/icon-why-choose-item-1.svg" alt="">
-                            </div>
-                            <div class="why-choose-item-content">
-                                <h3>Fast and Efficient Service</h3>
-                            </div>
-                        </div>
-                        <!-- Why Choose Item End -->
-                        
-                        <!-- Why Choose Item Start -->
-                        <div class="why-choose-item wow fadeInUp" data-wow-delay="0.2s">
-                            <div class="icon-box">
-                                <img src="images/icon-why-choose-item-2.svg" alt="">
-                            </div>
-                            <div class="why-choose-item-content">
-                                <h3>High-Quality Parts Guaranteed</h3>
-                            </div>
-                        </div>
-                        <!-- Why Choose Item End -->
-                        
-                        <!-- Why Choose Item Start -->
-                        <div class="why-choose-item wow fadeInUp" data-wow-delay="0.4s">
-                            <div class="icon-box">
-                                <img src="images/icon-why-choose-item-3.svg" alt="">
-                            </div>
-                            <div class="why-choose-item-content">
-                                <h3>Wide Range of Repair Services</h3>
-                            </div>
-                        </div>
-                        <!-- Why Choose Item End -->
-
-                        <!-- Why Choose Item Start -->
-                        <div class="why-choose-item wow fadeInUp" data-wow-delay="0.6s">
-                            <div class="icon-box">
-                                <img src="images/icon-why-choose-item-4.svg" alt="">
-                            </div>
-                            <div class="why-choose-item-content">
-                                <h3>Customer Satisfaction is Our Priority</h3>
-                            </div>
-                        </div>
-                        <!-- Why Choose Item End -->
-                    </div>
-                    <!-- Why Choose Item Box End -->
-                </div>
-                    
-                <div class="col-lg-6">
-                    <!-- Why Choose Image Start -->
-                    <div class="why-choose-image">
-                        <figure class="image-anime reveal">
-                            <img src="images/why-choose-image.jpg" alt="">
-                        </figure>
-
-                        <!-- Video Play Button Start -->
-                        <div class="video-play-button">
-                            <a href="https://www.youtube.com/watch?v=Y-x0efG1seA" class="popup-video" data-cursor-text="Play">
-                                <i class="fa-solid fa-play"></i>
-                            </a>
-                        </div>
-                        <!-- Video Play Button End -->
-                    </div>
-                    <!-- Why Choose Image End -->
-                </div>
-
-                <div class="col-lg-6">
-                    <!-- Why Choose Content Start -->
-                    <div class="why-choose-content">
-                        <!-- Why Choose Description Start -->
-                        <div class="why-choose-disc">
-                            <p class="wow fadeInUp"><span>"We provide reliable and efficient repair services for mobiles and computers. With certified technicians, genuine parts, and transparent pricing, we prioritize your satisfaction and device security."</span></p>
-                            <p class="wow fadeInUp" data-wow-delay="0.2s">At our repair center, we prioritize your trust and satisfaction. Our team of certified technicians is dedicated to providing high-quality repairs for both mobile devices and computers. We use only genuine replacement parts to ensure the longevity and performance of your devices. With transparent pricing, quick turnaround times, and exceptional customer support, we make the repair process hassle-free and reliable. Your device's security and functionality are our top priorities, giving you peace of mind with every repair.</p>
-                        </div>
-                        <!-- Why Choose Description End -->
-
-                        <!-- Why Choose Counter List Start -->
-                        <div class="why-choose-counter-list">
-                            <!-- Why Choose Counter Item Start -->
-                            <div class="why-choose-counter-item">
-                                <h2><span class="counter">25</span>+</h2>
-                                <p>Years of Experience</p>
-                            </div>
-                            <!-- Why Choose Counter Item End -->
-
-                            <!-- Why Choose Counter Item Start -->
-                            <div class="why-choose-counter-item">
-                                <h2><span class="counter">10</span>K+</h2>
-                                <p>Mobile Computer Repair</p>
-                            </div>
-                            <!-- Why Choose Counter Item End -->
-
-                            <!-- Why Choose Counter Item Start -->
-                            <div class="why-choose-counter-item">
-                                <h2><span class="counter">16</span>K</h2>
-                                <p>Happy Customer</p>
-                            </div>
-                            <!-- Why Choose Counter Item End -->
-                        </div>
-                        <!-- Why Choose Counter List End -->
-                    </div>
-                    <!-- Why Choose Content End -->
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Why Choose us Section End -->
-
-    <!-- Our Innovation Section Start -->
-    <div class="our-innovation">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6">
-                    <!-- Innovation Images Start -->
-                    <div class="innovation-images">
-                        <!-- Innovation Image Box 1 Start -->
-                        <div class="innovation-img-box-1">
-                            <!-- Innovation Image Start -->
-                            <div class="innovation-img">
-                                <figure class="image-anime reveal">
-                                    <img src="images/innovation-img-1.jpg" alt="">
-                                </figure>
-                            </div>
-                            <!-- Innovation Image End -->
-
-                            <!-- Client Review Box Start -->
-                            <div class="client-review-box">
-                                <!-- Customer Images Start -->
-                                <div class="customer-images">
-                                    <div class="customer-img">
-                                        <figure class="image-anime reveal">
-                                            <img src="images/author-1.jpg" alt="">
-                                        </figure>
-                                    </div>                                    
-                                    <div class="customer-img">
-                                        <figure class="image-anime reveal">
-                                            <img src="images/author-2.jpg" alt="">
-                                        </figure>
-                                    </div>
-                                    <div class="customer-img">
-                                        <figure class="image-anime reveal">
-                                            <img src="images/author-3.jpg" alt="">
-                                        </figure>
-                                    </div>
-                                    <div class="customer-img">
-                                        <figure class="image-anime reveal">
-                                            <img src="images/author-4.jpg" alt="">
-                                        </figure>
-                                    </div>
-                                    <div class="customer-img add-more">
-                                        <i class="fa-solid fa-plus"></i>
-                                    </div>
-                                </div>
-                                <!-- Customer Images End -->
-                                
-                                <!-- Hero Client Content Start -->
-                                <div class="hero-client-content">
-                                    <h3><span class="counter">4.9</span> Star</h3>
-                                    <p>reviews</p>
-                                </div>
-                                <!-- Hero Client Content End -->
-                            </div>
-                            <!-- Client Review Box End -->
-                        </div>
-                        <!-- Innovation Image Box 1 End -->
-                        
-                        <!-- Innovation Image Box 2 Start -->
-                        <div class="innovation-img-box-2">
-                            <!-- Innovation Image Start -->
-                            <div class="innovation-img">
-                                <figure class="image-anime reveal">
-                                    <img src="images/innovation-img-2.jpg" alt="">
-                                </figure>
-                            </div>
-                            <!-- Innovation Image End -->
-                            
-                            <!-- Innovation Image Start -->
-                            <div class="innovation-img">
-                                <figure class="image-anime reveal">
-                                    <img src="images/innovation-img-3.jpg" alt="">
-                                </figure>
-                            </div>
-                            <!-- Innovation Image End -->
-                        </div>
-                        <!-- Innovation Image Box 2 End -->
-                    </div>
-                    <!-- Innovation Images End -->
-                </div>
-
-                <div class="col-lg-6">
-                    <!-- Innovation Content Start -->
-                    <div class="innovation-content">
-                        <!-- Section Title Start -->
-                        <div class="section-title">
-                            <h3 class="wow fadeInUp">Driven by Innovation</h3>
-                            <h2 class="text-anime-style-3" data-cursor="-opaque">Repair solution that evolve with technology</h2>
-                            <p class="wow fadeInUp" data-wow-delay="0.2s">We stay ahead of the curve by adapting to the latest tech trends and repair techniques. Our solutions are designed to meet the evolving.</p>
-                        </div>
-                        <!-- Section Title End -->
-
-                        <!-- Innovation Counter List Start -->
-                        <div class="innovation-counter-list">
-                            <!-- Innovation Counter Item Start -->
-                            <div class="innovation-counter-item">
-                                <h2><span class="counter">15</span>+</h2>
-                                <p>Expert technicians</p>
-                            </div>
-                            <!-- Innovation Counter Item End -->
-                            
-                            <!-- Innovation Counter Item Start -->
-                            <div class="innovation-counter-item">
-                                <h2><span class="counter">12</span>K+</h2>
-                                <p>Devices repaired</p>
-                            </div>
-                            <!-- Innovation Counter Item End -->
-                            
-                            <!-- Innovation Counter Item Start -->
-                            <div class="innovation-counter-item">
-                                <h2><span class="counter">98</span>%</h2>
-                                <p>Happy clients</p>
-                            </div>
-                            <!-- Innovation Counter Item End -->
-                        </div>
-                        <!-- Innovation Counter List End -->
-
-                        <!-- Innovation List Start -->
-                        <div class="innovation-list wow fadeInUp" data-wow-delay="0.4s">
-                            <ul>
-                                <li>Years of experience delivering trusted repair solutions.</li>
-                                <li>Top-notch service with fast turnaround and genuine parts.</li>
-                            </ul>
-                        </div>
-                        <!-- Innovation List End -->
-                    </div>
-                    <!-- Innovation Content End -->
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Our Innovation Section End -->
-
-    <!-- How It Work Section Start -->
-    <div class="how-it-work dark-section">
-        <div class="container">
-            <div class="row section-row align-items-center">
-                <div class="col-lg-6">
-                    <!-- Section Title Start -->
-                    <div class="section-title">
-                        <h3 class="wow fadeInUp">how it work</h3>
-                        <h2 class="text-anime-style-3" data-cursor="-opaque">Simple steps to restore your device</h2>
-                    </div>
-                    <!-- Section Title End -->
-                </div>
-
-                <div class="col-lg-6">
-                    <!-- Service Button Start -->
-                    <div class="section-btn wow fadeInUp" data-wow-delay="0.2s">
-                        <a href="contact.html" class="btn-default btn-highlighted">contact us</a>
-                    </div>
-                    <!-- Service Button End -->
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-lg-12">
-                    <!-- How Work Box Start -->
-                    <div class="how-work-box tab-content wow fadeInUp" data-wow-delay="0.4s" id="myTabContent">
-                        <!-- Sidebar How Work Nav start -->
-                        <div class="how-work-nav">
-                            <ul class="nav nav-tabs" id="myTab" role="tablist">
-                                <li class="nav-item" role="presentation">
-                                    <button class="nav-link active" id="service-tab" data-bs-toggle="tab" data-bs-target="#service" type="button" role="tab" aria-selected="true"><span>01</span> Request a Service</button>
-                                </li>
-                                <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="device-tab" data-bs-toggle="tab" data-bs-target="#device" type="button" role="tab" aria-selected="false"><span>02</span> Device Evaluation</button>
-                                </li>
-                                <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="testing-tab" data-bs-toggle="tab" data-bs-target="#testing" type="button" role="tab" aria-selected="false"><span>03</span> Post-Repair Testing</button>
-                                </li>
-                                <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="satisfaction-tab" data-bs-toggle="tab" data-bs-target="#satisfaction" type="button" role="tab" aria-selected="false"><span>04</span> Customer Satisfaction</button>
-                                </li>
-                            </ul>
-                        </div>
-                        <!-- Sidebar How Work Nav End -->
-    
-                        <!-- How Work Item Start -->
-                        <div class="how-work-item tab-pane fade show active" id="service" role="tabpanel">
-                            <div class="row align-items-center">                          
-                                <div class="col-lg-6">
-                                    <!-- How Work Tab Content Start -->
-                                    <div class="how-work-content">
-                                        <p>Our experts thoroughly assess your device to identify issues and recommend the best repair or maintenance solutions. We ensure accurate diagnostics for optimal performance and longevity.</p>
-                                        <ul>
-                                            <li>Comprehensive Diagnostics</li>
-                                            <li>Connectivity & Sensor Testing</li>
-                                            <li>Screen & Display Assessment</li>
-                                            <li>Battery Health Check & Replace</li>
-                                        </ul>
-                                        
-                                        <!-- Why Choose Counter List Start -->
-                                        <div class="why-choose-counter-list">
-                                            <!-- Why Choose Counter Item Start -->
-                                            <div class="why-choose-counter-item">
-                                                <h2><span class="counter">8</span>K+</h2>
-                                                <p>Battery Health Check</p>
-                                            </div>
-                                            <!-- Why Choose Counter Item End -->
-    
-                                            <!-- Why Choose Counter Item Start -->
-                                            <div class="why-choose-counter-item">
-                                                <h2><span class="counter">10</span>K+</h2>
-                                                <p>Mobile Computer Repair</p>
-                                            </div>
-                                            <!-- Why Choose Counter Item End -->
-    
-                                            <!-- Why Choose Counter Item Start -->
-                                            <div class="why-choose-counter-item">
-                                                <h2><span class="counter">2</span>K</h2>
-                                                <p>Sensor Testing</p>
-                                            </div>
-                                            <!-- Why Choose Counter Item End -->
-                                        </div>
-                                        <!-- Why Choose Counter List End -->
-                                    </div>
-                                    <!-- How Work Tab Content End -->
-                                </div>
-                                
-                                <div class="col-lg-6">
-                                    <!-- How Work Tab Image Start -->
-                                    <div class="how-work-image">
-                                        <figure  class="image-anime">
-                                            <img src="images/how-work-image.jpg" alt="">
-                                        </figure>
-                                    </div>
-                                    <!-- How Work Tab Image End -->
-                                </div>
-                            </div>
-                        </div>
-                        <!-- How Work Item End -->
-    
-                        <!-- How Work Item Start -->
-                        <div class="how-work-item tab-pane fade" id="device" role="tabpanel">
-                            <div class="row align-items-center">                          
-                                <div class="col-lg-6">
-                                    <!-- How Work Tab Content Start -->
-                                    <div class="how-work-content">
-                                        <p>Our experts thoroughly assess your device to identify issues and recommend the best repair or maintenance solutions. We ensure accurate diagnostics for optimal performance and longevity.</p>
-                                        <ul>
-                                            <li>Comprehensive Diagnostics</li>
-                                            <li>Connectivity & Sensor Testing</li>
-                                            <li>Screen & Display Assessment</li>
-                                            <li>Battery Health Check & Replace</li>
-                                        </ul>
-                                        
-                                        <!-- Why Choose Counter List Start -->
-                                        <div class="why-choose-counter-list">
-                                            <!-- Why Choose Counter Item Start -->
-                                            <div class="why-choose-counter-item">
-                                                <h2><span class="counter">8</span>K+</h2>
-                                                <p>Battery Health Check</p>
-                                            </div>
-                                            <!-- Why Choose Counter Item End -->
-    
-                                            <!-- Why Choose Counter Item Start -->
-                                            <div class="why-choose-counter-item">
-                                                <h2><span class="counter">10</span>K+</h2>
-                                                <p>Mobile Computer Repair</p>
-                                            </div>
-                                            <!-- Why Choose Counter Item End -->
-    
-                                            <!-- Why Choose Counter Item Start -->
-                                            <div class="why-choose-counter-item">
-                                                <h2><span class="counter">2</span>K</h2>
-                                                <p>Sensor Testing</p>
-                                            </div>
-                                            <!-- Why Choose Counter Item End -->
-                                        </div>
-                                        <!-- Why Choose Counter List End -->
-                                    </div>
-                                    <!-- How Work Tab Content End -->
-                                </div>
-                                
-                                <div class="col-lg-6">
-                                    <!-- How Work Tab Image Start -->
-                                    <div class="how-work-image">
-                                        <figure  class="image-anime">
-                                            <img src="images/how-work-image.jpg" alt="">
-                                        </figure>
-                                    </div>
-                                    <!-- How Work Tab Image End -->
-                                </div>
-                            </div>
-                        </div>
-                        <!-- How Work Item End -->
-    
-                        <!-- How Work Item Start -->
-                        <div class="how-work-item tab-pane fade" id="testing" role="tabpanel">
-                            <div class="row align-items-center">                          
-                                <div class="col-lg-6">
-                                    <!-- How Work Tab Content Start -->
-                                    <div class="how-work-content">
-                                        <p>Our experts thoroughly assess your device to identify issues and recommend the best repair or maintenance solutions. We ensure accurate diagnostics for optimal performance and longevity.</p>
-                                        <ul>
-                                            <li>Comprehensive Diagnostics</li>
-                                            <li>Connectivity & Sensor Testing</li>
-                                            <li>Screen & Display Assessment</li>
-                                            <li>Battery Health Check & Replace</li>
-                                        </ul>
-                                        
-                                        <!-- Why Choose Counter List Start -->
-                                        <div class="why-choose-counter-list">
-                                            <!-- Why Choose Counter Item Start -->
-                                            <div class="why-choose-counter-item">
-                                                <h2><span class="counter">8</span>K+</h2>
-                                                <p>Battery Health Check</p>
-                                            </div>
-                                            <!-- Why Choose Counter Item End -->
-    
-                                            <!-- Why Choose Counter Item Start -->
-                                            <div class="why-choose-counter-item">
-                                                <h2><span class="counter">10</span>K+</h2>
-                                                <p>Mobile Computer Repair</p>
-                                            </div>
-                                            <!-- Why Choose Counter Item End -->
-    
-                                            <!-- Why Choose Counter Item Start -->
-                                            <div class="why-choose-counter-item">
-                                                <h2><span class="counter">2</span>K</h2>
-                                                <p>Sensor Testing</p>
-                                            </div>
-                                            <!-- Why Choose Counter Item End -->
-                                        </div>
-                                        <!-- Why Choose Counter List End -->
-                                    </div>
-                                    <!-- How Work Tab Content End -->
-                                </div>
-                                
-                                <div class="col-lg-6">
-                                    <!-- How Work Tab Image Start -->
-                                    <div class="how-work-image">
-                                        <figure  class="image-anime">
-                                            <img src="images/how-work-image.jpg" alt="">
-                                        </figure>
-                                    </div>
-                                    <!-- How Work Tab Image End -->
-                                </div>
-                            </div>
-                        </div>
-                        <!-- How Work Item End -->
-    
-                        <!-- How Work Item Start -->
-                        <div class="how-work-item tab-pane fade" id="satisfaction" role="tabpanel">
-                            <div class="row align-items-center">                          
-                                <div class="col-lg-6">
-                                    <!-- How Work Tab Content Start -->
-                                    <div class="how-work-content">
-                                        <p>Our experts thoroughly assess your device to identify issues and recommend the best repair or maintenance solutions. We ensure accurate diagnostics for optimal performance and longevity.</p>
-                                        <ul>
-                                            <li>Comprehensive Diagnostics</li>
-                                            <li>Connectivity & Sensor Testing</li>
-                                            <li>Screen & Display Assessment</li>
-                                            <li>Battery Health Check & Replace</li>
-                                        </ul>
-                                        
-                                        <!-- Why Choose Counter List Start -->
-                                        <div class="why-choose-counter-list">
-                                            <!-- Why Choose Counter Item Start -->
-                                            <div class="why-choose-counter-item">
-                                                <h2><span class="counter">8</span>K+</h2>
-                                                <p>Battery Health Check</p>
-                                            </div>
-                                            <!-- Why Choose Counter Item End -->
-    
-                                            <!-- Why Choose Counter Item Start -->
-                                            <div class="why-choose-counter-item">
-                                                <h2><span class="counter">10</span>K+</h2>
-                                                <p>Mobile Computer Repair</p>
-                                            </div>
-                                            <!-- Why Choose Counter Item End -->
-    
-                                            <!-- Why Choose Counter Item Start -->
-                                            <div class="why-choose-counter-item">
-                                                <h2><span class="counter">2</span>K</h2>
-                                                <p>Sensor Testing</p>
-                                            </div>
-                                            <!-- Why Choose Counter Item End -->
-                                        </div>
-                                        <!-- Why Choose Counter List End -->
-                                    </div>
-                                    <!-- How Work Tab Content End -->
-                                </div>
-                                
-                                <div class="col-lg-6">
-                                    <!-- How Work Tab Image Start -->
-                                    <div class="how-work-image">
-                                        <figure  class="image-anime">
-                                            <img src="images/how-work-image.jpg" alt="">
-                                        </figure>
-                                    </div>
-                                    <!-- How Work Tab Image End -->
-                                </div>
-                            </div>
-                        </div>
-                        <!-- How Work Item End -->
-                    </div>
-                    <!-- How Work Box End -->
-                </div>
-    
-                <div class="col-lg-12">
-                    <!-- Our Partners Start -->
-                    <div class="our-partners">
-                        <div class="row align-items-center">
-                            <div class="col-lg-5">
-                                <!-- Our Partners Content Start -->
-                                <div class="our-partners-content">
-                                    <!-- Section Title Start -->
-                                    <div class="section-title">
-                                        <h3 class="wow fadeInUp">Our Partners</h3>
-                                        <h2 class="text-anime-style-3" data-cursor="-opaque">Our reliable partner for device repairs</h2>
-                                    </div>
-                                    <!-- Section Title End -->
-                                </div>
-                                <!-- Our Partners Content End -->
-                            </div>
-    
-                            <div class="col-lg-7">
-                                <!-- Our Partners Logo Box Start -->
-                                <div class="partners-logo-box">
-                                    <!-- Partners Logo Start -->
-                                    <div class="partners-logo wow fadeInUp">
-                                        <img src="images/partners-logo-1.svg" alt="">
-                                    </div>
-                                    <!-- Partners Logo End -->
-    
-                                    <!-- Partners Logo Start -->
-                                    <div class="partners-logo wow fadeInUp" data-wow-delay="0.2s">
-                                        <img src="images/partners-logo-2.svg" alt="">
-                                    </div>
-                                    <!-- Partners Logo End -->
-    
-                                    <!-- Partners Logo Start -->
-                                    <div class="partners-logo wow fadeInUp" data-wow-delay="0.4s">
-                                        <img src="images/partners-logo-3.svg" alt="">
-                                    </div>
-                                    <!-- Partners Logo End -->
-    
-                                    <!-- Partners Logo Start -->
-                                    <div class="partners-logo wow fadeInUp" data-wow-delay="0.6s">
-                                        <img src="images/partners-logo-4.svg" alt="">
-                                    </div>
-                                    <!-- Partners Logo End -->
-    
-                                    <!-- Partners Logo Start -->
-                                    <div class="partners-logo wow fadeInUp" data-wow-delay="0.8s">
-                                        <img src="images/partners-logo-5.svg" alt="">
-                                    </div>
-                                    <!-- Partners Logo End -->
-    
-                                    <!-- Partners Logo Start -->
-                                    <div class="partners-logo wow fadeInUp" data-wow-delay="1s">
-                                        <img src="images/partners-logo-6.svg" alt="">
-                                    </div>
-                                    <!-- Partners Logo End -->
-                                </div>
-                                <!-- Our Partners Logo Box End -->
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Our Partners End -->
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- How It Work Section End -->
-
-    <!-- Our Team Section Start -->
-    <div class="our-team">
-        <div class="container">
-            <div class="row section-row">
-                <div class="col-lg-6">
-                    <!-- Section Title Start -->
-                    <div class="section-title">
-                        <h3 class="wow fadeInUp">Our Skilled Team</h3>
-                        <h2 class="text-anime-style-3" data-cursor="-opaque">Experts who care about your devices</h2>
-                    </div>
-                    <!-- Section Title End -->
-                </div>
-
-                <div class="col-lg-6">
-                    <!-- Section Title Content Start -->
-                    <div class="section-btn wow fadeInUp" data-wow-delay="0.2s">
-                        <a href="team.html" class="btn-default">View all member</a>
-                    </div>
-                    <!-- Section Title Content End -->
-                </div>
-            </div>
-            
-            <div class="row">
-                <div class="col-lg-3 col-md-6">
-                    <!-- Team Item Start -->
-                    <div class="team-item wow fadeInUp">
-                        <!-- team Image Start -->
-                        <div class="team-image">
-                            <a href="team-single.html" data-cursor-text="View">
-                                <figure class="image-anime">
-                                    <img src="images/team-1.jpg" alt="">
-                                </figure>
-                            </a>
-                        </div>
-                        <!-- team Image End -->
-
-                        <!-- Team Body Start -->
-                        <div class="team-body">
-                            <!-- Team Content Start -->
-                            <div class="team-content">
-                                <h3><a href="team-single.html">Sarah mitchell</a></h3>
-                                <p>Marketing Director</p>
-                            </div>
-                            <!-- Team Content End -->
-
-                            <!-- Team Social List Start -->
-                            <div class="team-social-list">
+                            <!-- Member Content Body Start -->
+                            <div class="member-content-body wow fadeInUp" data-wow-delay="0.2s">
                                 <ul>
-                                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                                    <li><a href="#"><i class="fa-brands fa-dribbble"></i></a></li>
+                                    <li>E - mail :<span>info@ayofixit.com</span></li>
+                                    <li>Experience :<span>15+ years</span></li>
+                                    <li>Call me :<span>+34 660 12 17 73</span></li>
+                                    <li>Service area :<span>Tenerife, island-wide</span></li>
+                                </ul>   
+                            </div>
+                            <!-- Member Content Body End -->
+                            
+                        </div>
+                        <!-- Team Member About End -->
+
+                        <!-- Member professional Info Start -->
+                        <div class="member-professional-info">
+                            <!-- Section Title Start -->
+                            <div class="section-title">
+                                <h2 class="text-anime-style-3" data-cursor="-opaque">Professional background</h2>
+                                <p class="wow fadeInUp">Here is how a repair actually goes. I work step by step and tell you what I find, what it costs, and what I would do in your place, in plain language and without the sales pitch.</p>
+                            </div>
+                            <!-- Section Title End -->
+
+                            <div class="member-professional-info-content wow fadeInUp" data-wow-delay="0.2s">
+                                <ul>
+                                    <li>I handle complex repairs on all major laptop, phone and tablet brands, down to board level.</li>
+                                    <li>I fit only genuine, high-performance replacement parts, and I tell you which ones.</li>
+                                    <li>My pricing is upfront and includes everything. No surprise line on the invoice.</li>
                                 </ul>
                             </div>
-                            <!-- Team Social List End -->
+
                         </div>
-                        <!-- Team Body End -->                        
+                        <!-- Member professional Info End -->
+
+                        <!-- Member Technical Info Start -->
+                        <div class="member-technical-info">
+                            <!-- Section Title Start -->
+                            <div class="section-title">
+                                <h2 class="text-anime-style-3" data-cursor="-opaque">How I work, and why it matters</h2>
+                                <p class="wow fadeInUp">Fifteen years of repairs across Tenerife, and the same approach every time: find the real fault, explain it in plain language, repair what can be repaired, and stand behind the work afterwards.</p>
+                            </div>
+                            <!-- Section Title End -->
+
+                            <!-- Technical Info List Start -->
+                            <div class="technical-info-list">
+                                <!-- Technical Info Item Start -->
+                                <div class="technical-info-item wow fadeInUp" data-wow-delay="0.2s">
+                                    <div class="icon-box">
+                                        <img src="images/icon-technical-info-1.svg" alt="">
+                                    </div>
+
+                                    <div class="technical-info-item-content">
+                                        <h3>Fair, upfront pricing</h3>
+                                        <p>One fixed price covering parts and labour, agreed before I start. If a repair is not worth your money, I say so instead of selling it to you.</p>
+                                    </div>
+                                </div>
+                                <!-- Technical Info Item End -->
+
+                                <!-- Technical Info Item Start -->
+                                <div class="technical-info-item wow fadeInUp" data-wow-delay="0.4s">
+                                    <div class="icon-box">
+                                        <img src="images/icon-technical-info-2.svg" alt="">
+                                    </div>
+
+                                    <div class="technical-info-item-content">
+                                        <h3>Personal accountability</h3>
+                                        <p>The person who quotes your repair is the person who carries it out, and the person you call if anything is not right afterwards. That is the whole point of AYOFixIt.</p>
+                                    </div>
+                                </div>
+                                <!-- Technical Info Item End -->
+                            </div>
+                            <!-- Technical Info List End -->
+                        </div>
+                        <!-- Member Technical Info End -->
+
+
                     </div>
-                    <!-- Team Item End -->
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <!-- Team Item Start -->
-                    <div class="team-item wow fadeInUp" data-wow-delay="0.2s">
-                        <!-- team Image Start -->
-                        <div class="team-image">
-                            <a href="team-single.html" data-cursor-text="View">
-                                <figure class="image-anime">
-                                    <img src="images/team-2.jpg" alt="">
-                                </figure>
-                            </a>
-                        </div>
-                        <!-- team Image End -->
-
-                        <!-- Team Body Start -->
-                        <div class="team-body">
-                            <!-- Team Content Start -->
-                            <div class="team-content">
-                                <h3><a href="team-single.html">Cameron williamson</a></h3>
-                                <p>Computer technician</p>
-                            </div>
-                            <!-- Team Content End -->
-
-                            <!-- Team Social List Start -->
-                            <div class="team-social-list">
-                                <ul>
-                                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                                    <li><a href="#"><i class="fa-brands fa-dribbble"></i></a></li>
-                                </ul>
-                            </div>
-                            <!-- Team Social List End -->
-                        </div>
-                        <!-- Team Body End -->                        
-                    </div>
-                    <!-- Team Item End -->
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <!-- Team Item Start -->
-                    <div class="team-item wow fadeInUp" data-wow-delay="0.4s">
-                        <!-- team Image Start -->
-                        <div class="team-image">
-                            <a href="team-single.html" data-cursor-text="View">
-                                <figure class="image-anime">
-                                    <img src="images/team-3.jpg" alt="">
-                                </figure>
-                            </a>
-                        </div>
-                        <!-- team Image End -->
-
-                        <!-- Team Body Start -->
-                        <div class="team-body">
-                            <!-- Team Content Start -->
-                            <div class="team-content">
-                                <h3><a href="team-single.html">Brooklyn simmons</a></h3>
-                                <p>Mobile technician</p>
-                            </div>
-                            <!-- Team Content End -->
-
-                            <!-- Team Social List Start -->
-                            <div class="team-social-list">
-                                <ul>
-                                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                                    <li><a href="#"><i class="fa-brands fa-dribbble"></i></a></li>
-                                </ul>
-                            </div>
-                            <!-- Team Social List End -->
-                        </div>
-                        <!-- Team Body End -->                        
-                    </div>
-                    <!-- Team Item End -->
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <!-- Team Item Start -->
-                    <div class="team-item wow fadeInUp" data-wow-delay="0.6s">
-                        <!-- team Image Start -->
-                        <div class="team-image">
-                            <a href="team-single.html" data-cursor-text="View">
-                                <figure class="image-anime">
-                                    <img src="images/team-4.jpg" alt="">
-                                </figure>
-                            </a>
-                        </div>
-                        <!-- team Image End -->
-
-                        <!-- Team Body Start -->
-                        <div class="team-body">
-                            <!-- Team Content Start -->
-                            <div class="team-content">
-                                <h3><a href="team-single.html">Savannah nguyen</a></h3>
-                                <p>Hardware specialist</p>
-                            </div>
-                            <!-- Team Content End -->
-
-                            <!-- Team Social List Start -->
-                            <div class="team-social-list">
-                                <ul>
-                                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                                    <li><a href="#"><i class="fa-brands fa-dribbble"></i></a></li>
-                                </ul>
-                            </div>
-                            <!-- Team Social List End -->
-                        </div>
-                        <!-- Team Body End -->                        
-                    </div>
-                    <!-- Team Item End -->
+                    <!-- Team Single Content End -->
                 </div>
             </div>
         </div>
     </div>
-    <!-- Our Team Section End -->
-
-    <!-- Our Testimonials Section Start -->
-    <div class="our-testimonials dark-section">
-        <div class="container">
-            <div class="row section-row align-items-center">
-                <div class="col-lg-6">
-                    <!-- Section Title Start -->
-                    <div class="section-title">
-                        <h3 class="wow fadeInUp">testimonials</h3>
-                        <h2 class="text-anime-style-3" data-cursor="-opaque">Hear from our satisfied customer today</h2>
-                    </div>
-                    <!-- Section Title End -->
-                </div>
-
-                <div class="col-lg-6">
-                    <!-- Service Button Start -->
-                    <div class="section-btn wow fadeInUp" data-wow-delay="0.2s">
-                        <a href="testimonials.html" class="btn-default btn-highlighted">View All Review</a>
-                    </div>
-                    <!-- Service Button End -->
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-lg-12">
-                    <!-- Testimonial Slider Start -->
-                    <div class="testimonial-slider">
-                        <div class="swiper">
-                            <div class="swiper-wrapper" data-cursor-text="Drag">
-                                <!-- Testimonial Slide Start -->
-                                <div class="swiper-slide">
-                                    <div class="testimonial-item">
-                                        <div class="testimonial-header">
-                                            <div class="testimonial-author">
-                                                <div class="author-image">
-                                                    <figure class="image-anime">
-                                                        <img src="images/author-1.jpg" alt="">
-                                                    </figure>
-                                                </div>            
-                                                <div class="author-content">
-                                                    <h3>Jenny Wilson</h3>
-                                                    <p>Lead Technician</p>
-                                                </div>
-                                            </div>
-                                            <div class="testimonial-rating">
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                            </div>
-                                        </div>
-                                        
-                                        <div class="testimonial-content">
-                                            <p>"Fantastic service! My phone screen was cracked & they had it fixed in no time. Professional, friendly & affordable recommend Amazing experience! They recovered all my data after my laptop crashed. The team was so helpful clearly. 5 stars!"</p>
-                                        </div>                                        
-                                    </div>
-                                </div>
-                                <!-- Testimonial Slide End -->
-                                
-                                <!-- Testimonial Slide Start -->
-                                <div class="swiper-slide">
-                                    <div class="testimonial-item">
-                                        <div class="testimonial-header">
-                                            <div class="testimonial-author">
-                                                <div class="author-image">
-                                                    <figure class="image-anime">
-                                                        <img src="images/author-2.jpg" alt="">
-                                                    </figure>
-                                                </div>            
-                                                <div class="author-content">
-                                                    <h3>Annette Black</h3>
-                                                    <p>hardware Technician</p>
-                                                </div>
-                                            </div>
-                                            <div class="testimonial-rating">
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                            </div>
-                                        </div>
-                                        
-                                        <div class="testimonial-content">
-                                            <p>"Fantastic service! My phone screen was cracked & they had it fixed in no time. Professional, friendly & affordable recommend Amazing experience! They recovered all my data after my laptop crashed. The team was so helpful clearly. 5 stars!"</p>
-                                        </div>                                        
-                                    </div>
-                                </div>
-                                <!-- Testimonial Slide End -->
-
-                                <!-- Testimonial Slide Start -->
-                                <div class="swiper-slide">
-                                    <div class="testimonial-item">
-                                        <div class="testimonial-header">
-                                            <div class="testimonial-author">
-                                                <div class="author-image">
-                                                    <figure class="image-anime">
-                                                        <img src="images/author-3.jpg" alt="">
-                                                    </figure>
-                                                </div>            
-                                                <div class="author-content">
-                                                    <h3>Mark Robinson</h3>
-                                                    <p>Repair Specialist</p>
-                                                </div>
-                                            </div>
-                                            <div class="testimonial-rating">
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                            </div>
-                                        </div>
-                                        
-                                        <div class="testimonial-content">
-                                            <p>"Fantastic service! My phone screen was cracked & they had it fixed in no time. Professional, friendly & affordable recommend Amazing experience! They recovered all my data after my laptop crashed. The team was so helpful clearly. 5 stars!"</p>
-                                        </div>                                        
-                                    </div>
-                                </div>
-                                <!-- Testimonial Slide End -->
-
-                                <!-- Testimonial Slide Start -->
-                                <div class="swiper-slide">
-                                    <div class="testimonial-item">
-                                        <div class="testimonial-header">
-                                            <div class="testimonial-author">
-                                                <div class="author-image">
-                                                    <figure class="image-anime">
-                                                        <img src="images/author-4.jpg" alt="">
-                                                    </figure>
-                                                </div>            
-                                                <div class="author-content">
-                                                    <h3>Ava Thompson</h3>
-                                                    <p>Mobile Technician</p>
-                                                </div>
-                                            </div>
-                                            <div class="testimonial-rating">
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                            </div>
-                                        </div>
-                                        
-                                        <div class="testimonial-content">
-                                            <p>"Fantastic service! My phone screen was cracked & they had it fixed in no time. Professional, friendly & affordable recommend Amazing experience! They recovered all my data after my laptop crashed. The team was so helpful clearly. 5 stars!"</p>
-                                        </div>                                        
-                                    </div>
-                                </div>
-                                <!-- Testimonial Slide End -->
-                            </div>
-                            <div class="testimonial-pagination"></div>
-                        </div>
-                    </div>
-                    <!-- Testimonial Slider End -->
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Our Testimonials Section End -->
-
-    <!-- Our FAQs Section Start -->
-    <div class="our-faqs">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <!-- FAQ Content Start -->
-                    <div class="faq-content">
-                        <!-- Section Title Start -->
-                        <div class="section-title">
-                            <h3 class="wow fadeInUp">FAQ's</h3>
-                            <h2 class="text-anime-style-3" data-cursor="-opaque">Answers to your common questions</h2>
-                            <p class="wow fadeInUp" data-wow-delay="0.2s">Find clear and concise answers to the most frequently asked questions about our computer and mobile repair services.</p>
-                        </div>
-                        <!-- Section Title End -->
-
-                        <!-- FAQs Review Box Start -->
-                        <div class="faqs-review-box">
-                            <!-- FAQs Review Body Start -->
-                            <div class="faqs-review-body">
-                                <!-- Review Rating Box Start -->
-                                <div class="review-rating-box">
-                                    <h2><span class="counter">4.9</span></h2>
-                                    <i class="fa-solid fa-star"></i>
-                                </div>
-                                <!-- Review Rating Box End -->
-                                
-                                <!-- Review Client Box Start -->
-                                <div class="hero-client-box">
-                                    <!-- Review Image Start -->
-                                    <div class="customer-images">
-                                        <div class="customer-img">
-                                            <figure class="image-anime reveal">
-                                                <img src="images/author-1.jpg" alt="">
-                                            </figure>
-                                        </div>
-                                        <div class="customer-img">
-                                            <figure class="image-anime reveal">
-                                                <img src="images/author-2.jpg" alt="">
-                                            </figure>
-                                        </div>
-                                        <div class="customer-img">
-                                            <figure class="image-anime reveal">
-                                                <img src="images/author-3.jpg" alt="">
-                                            </figure>
-                                        </div>
-                                        <div class="customer-img">
-                                            <figure class="image-anime reveal">
-                                                <img src="images/author-4.jpg" alt="">
-                                            </figure>
-                                        </div>
-                                    </div>
-                                    <!-- Testimonial Review Image End -->
-    
-                                    <!-- Satisfy Client Box Start -->
-                                    <div class="hero-client-content">
-                                        <p>Our Customer Review</p>
-                                    </div>
-                                </div>
-                                <!-- Review Client Box End -->
-                            </div>
-                            <!-- FAQs Review Body End -->
-
-                            <!-- FAQs Review Footer Start -->
-                            <div class="faqs-review-footer">
-                                <a href="tel:+125125025"><i class="fa-solid fa-phone"></i> +91 - 125-125-025</a>
-                            </div>
-                            <!-- FAQs Review Footer End -->
-                        </div>
-                        <!-- FAQs Review Box End -->
-                    </div>
-                    <!-- FAQ Content End -->
-                </div>
-                
-                <div class="col-lg-6">
-                    <!-- FAQ Accordion Start -->
-                    <div class="faq-accordion" id="faqaccordion">
-                        <!-- FAQ Item Start -->
-                        <div class="accordion-item wow fadeInUp">
-                            <h2 class="accordion-header" id="heading1">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
-                                    How long does a typical repair take?
-                                </button>
-                            </h2>
-                            <div id="collapse1" class="accordion-collapse collapse" aria-labelledby="heading1" data-bs-parent="#faqaccordion">
-                                <div class="accordion-body">
-                                    <p>Yes, we use high-quality and original parts to ensure the best performance and durability of your devices.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- FAQ Item End -->
-
-                        <!-- FAQ Item Start -->
-                        <div class="accordion-item wow fadeInUp" data-wow-delay="0.2s">
-                            <h2 class="accordion-header" id="heading2">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
-                                    Do you use original parts for replacements?
-                                </button>
-                            </h2>
-                            <div id="collapse2" class="accordion-collapse collapse show" aria-labelledby="heading2" data-bs-parent="#faqaccordion">
-                                <div class="accordion-body">
-                                    <p>Yes, we use high-quality and original parts to ensure the best performance and durability of your devices.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- FAQ Item End -->
-
-                        <!-- FAQ Item Start -->
-                        <div class="accordion-item wow fadeInUp" data-wow-delay="0.4s">
-                            <h2 class="accordion-header" id="heading3">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
-                                    Is there a warranty on repairs?
-                                </button>
-                            </h2>
-                            <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3" data-bs-parent="#faqaccordion">
-                                <div class="accordion-body">
-                                    <p>Yes, we use high-quality and original parts to ensure the best performance and durability of your devices.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- FAQ Item End -->    
-
-                        <!-- FAQ Item Start -->
-                        <div class="accordion-item wow fadeInUp" data-wow-delay="0.6s">
-                            <h2 class="accordion-header" id="heading4">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
-                                    Can I get a repair estimate before visiting?
-                                </button>
-                            </h2>
-                            <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4" data-bs-parent="#faqaccordion">
-                                <div class="accordion-body">
-                                    <p>Yes, we use high-quality and original parts to ensure the best performance and durability of your devices.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- FAQ Item End -->
-
-                        <!-- FAQ Item Start -->
-                        <div class="accordion-item wow fadeInUp" data-wow-delay="0.8s">
-                            <h2 class="accordion-header" id="heading5">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
-                                    Do you offer on-site repair services?
-                                </button>
-                            </h2>
-                            <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5" data-bs-parent="#faqaccordion">
-                                <div class="accordion-body">
-                                    <p>Yes, we use high-quality and original parts to ensure the best performance and durability of your devices.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- FAQ Item End -->
-                    </div>
-                    <!-- FAQ Accordion End -->
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Our FAQs Section End -->
+    <!-- Page Team Single End -->
     
     <!-- Footer Main Start -->
     <footer class="main-footer dark-section">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
-                    <!-- Footer Header start -->
-                    <div class="footer-header">
-                        <!-- About Footer Start -->
-                        <div class="about-footer order-1">
-                            <!-- Footer Logo Start -->
-                            <div class="footer-logo">
-                                <img src="images/footer-logo.svg" alt="">
-                            </div>
-                            <!-- Footer Logo End -->
-                            
-                            <!-- About Footer Content Start -->
-                            <div class="about-footer-content">
-                                <p>Your trusted partner for expert device repairs. We provide fast, affordable repair services.</p>
-                            </div>
-                            <!-- About Footer Content End -->
-                        </div>
-                        <!-- About Footer End -->
-                        
-                        <!-- Footer Contact Box Start -->
-                        <div class="footer-contact-box order-lg-2  order-md-2  order-3">
-                            <!-- Footer Contact Item Start -->
-                            <div class="footer-contact-item">
-                                <div class="icon-box">
-                                    <i class="fa-solid fa-location-dot"></i>
-                                </div>
-                                <div class="footer-contact-item-content">
-                                    <h3>Location:</h3>
-                                    <p>2972 Westheimer Rd. Santa Ana, New York, USA</p>
-                                </div>
-                            </div>
-                            <!-- Footer Contact Item End -->
-                        </div>                        
-                        <!-- Footer Contact Box End -->
-
-                        <!-- Footer Social Links Start -->
-                        <div class="footer-social-links order-lg-3  order-md-3  order-2">
-                            <span>Follow Our On:</span>
-                            <ul>
-                                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                <li><a href="#"><i class="fa-brands fa-dribbble"></i></a></li>
-                                <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                            </ul>
-                        </div>
-                        <!-- Footer Social Links End -->
-                    </div>
-                    <!-- Footer Header End -->                   
-                </div>
 
                 <div class="col-lg-3 col-md-5">
                     <!-- Footer Contact Box Start -->
@@ -1602,19 +326,19 @@
                                 <i class="fa-solid fa-phone"></i>
                             </div>
                             <div class="footer-contact-item-content">
-                                <h3>Urgent Support?</h3>
-                                <p><a href="tel:+123465789">+91 123 465 789</a></p>
+                                <h3>Need help now?</h3>
+                                <p><a href="https://wa.me/34660121773?text=Hola%2C%20necesito%20ayuda%20o%20asesoramiento%20con%20un%20equipo%20que%20necesito%20reparar.%20%C2%BFPodr%C3%ADas%20ayudarme%3F%20Gracias%21" target="_blank" rel="nofollow noopener">+34 660 12 17 73</a></p>
                             </div>
                         </div>
                         <!-- Footer Contact Item End -->
-                        
+
                         <!-- Footer Contact Item Start -->
                         <div class="footer-contact-item">
                             <div class="icon-box">
                                 <i class="fa-solid fa-envelope"></i>
                             </div>
                             <div class="footer-contact-item-content">
-                                <h3>E-mail Us</h3>
+                                <h3>E-mail me</h3>
                                 <p><a href="mailto:info@ayofixit.com">info@ayofixit.com</a></p>
                             </div>
                         </div>
@@ -1626,95 +350,75 @@
                 <div class="col-lg-2 col-md-3 col-6">
                     <!-- Footer Links Start -->
                     <div class="footer-links quick-links">
-                        <h3>quick links</h3>
+                        <h3>Quick links</h3>
                         <ul>
                             <li><a href="index.html">Home</a></li>
-                            <li><a href="about.html">About us</a></li>
-                            <li><a href="services.html">services</a></li>
-                            <li><a href="contact.html">contact us</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="services/index.html">Services</a></li>
+                            <li><a href="faqs.html">FAQs</a></li>
+                            <li><a href="contact.html">Contact</a></li>
                         </ul>
                     </div>
-                    <!-- Footer Links End -->	
+                    <!-- Footer Links End -->
                 </div>
 
                 <div class="col-lg-3 col-md-4">
                     <!-- Footer Links Start -->
                     <div class="footer-links">
-                        <h3>Our Services</h3>
+                        <h3>Services</h3>
                         <ul>
-                            <li><a href="service-single.html">Computer & Mobile Repair</a></li>
-                            <li><a href="service-single.html">Battery Replacement</a></li>
-                            <li><a href="service-single.html">Water Damage Repair</a></li>
-                            <li><a href="service-single.html">Custom PC Builds</a></li>
+                            <li><a href="services/computer-hardware.html">Computer hardware repair</a></li>
+                            <li><a href="services/battery-replacement.html">Battery replacement</a></li>
+                            <li><a href="services/custom-pc-builds.html">Custom PC builds</a></li>
+                            <li><a href="services/laptop-screen-replacement.html">Screen replacement</a></li>
+                            <li><a href="services/software-troubleshooting.html">Virus removal &amp; software</a></li>
                         </ul>
                     </div>
-                    <!-- Footer Links End -->	
-                </div>               
+                    <!-- Footer Links End -->
+                </div>
 
                 <div class="col-lg-4 col-md-12">
-                    <!-- Footer Newsletter Box Start -->
-                    <div class="footer-newsletter-box footer-links">
-                        <h3>Subscribe Our Newsletter</h3>
-                        <!-- Newsletter Form start -->
-                        <div class="newsletter-form">
-                            <form id="newsletterForm" action="#" method="POST">
-                                <div class="form-group">
-                                    <input type="email" name="email" class="form-control" id="mail" placeholder="Your Email" required="">
-                                    <button type="submit" class="btn-default btn-highlighted">subscribe</button>
-                                </div>
-                            </form>
+                    <!-- Footer Follow Box Start -->
+                    <div class="footer-links footer-follow-box">
+                        <h3>Follow me:</h3>
+                        <div class="footer-social-links">
+                            <ul>
+                                <li><a href="https://www.facebook.com/ayozefixit/" target="_blank" rel="nofollow noopener" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a></li>
+                            </ul>
                         </div>
-                        <!-- Newsletter Form end -->
-                        <p>*Stay updated with the latest HR trends expert tips insights  your inbox.</p>
                     </div>
-                    <!-- Footer Newsletter Box End -->
+                    <!-- Footer Follow Box End -->
                 </div>
 
                 <div class="col-lg-12">
                     <!-- Footer Copyright Text Start -->
                     <div class="footer-copyright-text">
-                        <p>Copyright © 2025 All Rights Reserved.</p>
+                        <p>Copyright &copy; <span class="current-year">2026</span> All Rights Reserved.</p>
+                        <a class="footer-credit" href="https://www.alejandrofm.com" target="_blank" rel="noopener">
+                            <img src="images/webdesign-berlin-alejandrofm.svg" width="42" height="19" loading="lazy" decoding="async" alt="AFM Webdesign Berlin">
+                            <span>webdesign berlin</span>
+                        </a>
                     </div>
                     <!-- Footer Copyright Text End -->
                 </div>
             </div>
         </div>
     </footer>
+    <script>document.querySelectorAll(".current-year").forEach(function(e){e.textContent=new Date().getFullYear()});</script>
     <!-- Footer Main End -->
 
     <!-- Jquery Library File -->
     <script src="js/jquery-3.7.1.min.js"></script>
-    <!-- Bootstrap js file -->
-    <script src="js/bootstrap.min.js"></script>
-    <!-- Validator js file -->
-    <script src="js/validator.min.js"></script>
     <!-- SlickNav js file -->
     <script src="js/jquery.slicknav.js"></script>
-    <!-- Swiper js file -->
-    <script src="js/swiper-bundle.min.js"></script>
-    <!-- Counter js file -->
-    <script src="js/jquery.waypoints.min.js"></script>
-    <script src="js/jquery.counterup.min.js"></script>
-    <!-- Isotop js file -->
-	<script src="js/isotope.min.js"></script>
-    <!-- Magnific js file -->
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <!-- SmoothScroll -->
-    <script src="js/SmoothScroll.js"></script>
-    <!-- Parallax js -->
-    <script src="js/parallaxie.js"></script>
     <!-- MagicCursor js file -->
+    <script src="js/lenis.min.js"></script>
     <script src="js/gsap.min.js"></script>
     <script src="js/magiccursor.js"></script>
     <!-- Text Effect js file -->
-    <script src="js/SplitText.js"></script>
+    <script src="js/SplitText.min.js"></script>
     <script src="js/ScrollTrigger.min.js"></script>
-    <!-- YTPlayer js File -->
-    <script src="js/jquery.mb.YTPlayer.min.js"></script>
-    <!-- Wow js file -->
-    <script src="js/wow.min.js"></script>
     <!-- Main Custom js file -->
     <script src="js/function.js"></script>
-	<script src="https://demo.awaikenthemes.com/assets/js/theme-panel-dynamic.js"></script>
 </body>
 </html>

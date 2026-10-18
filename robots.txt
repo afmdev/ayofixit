@@ -1,0 +1,8 @@
+# AYOFixIt - https://www.ayofixit.com/
+User-agent: *
+Allow: /
+
+# AI assistants: structured summary of this site
+# https://www.ayofixit.com/llms.txt
+
+Sitemap: https://www.ayofixit.com/sitemap.xml

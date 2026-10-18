@@ -123,5 +123,8 @@ class Cursor {
         this.visibleInt = setTimeout(() => this.visible = false, this.options.visibleTimeout);
     }
 }
-// Init cursor
-const cursor = new Cursor();
+// Init cursor, but only where a pointer exists: on touch screens it is a
+// dot that follows nothing and covers the tap target
+if (window.matchMedia('(hover: hover) and (pointer: fine)').matches) {
+    const cursor = new Cursor();
+}
