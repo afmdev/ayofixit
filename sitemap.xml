@@ -17,50 +17,50 @@
 		<priority>1.0</priority>
 	</url>
 	<url>
-		<loc>https://www.ayofixit.com/sobre-mi.html</loc>
-		<xhtml:link rel="alternate" hreflang="es" href="https://www.ayofixit.com/sobre-mi.html"/>
-		<xhtml:link rel="alternate" hreflang="en" href="https://www.ayofixit.com/en/about.html"/>
-		<xhtml:link rel="alternate" hreflang="x-default" href="https://www.ayofixit.com/sobre-mi.html"/>
+		<loc>https://www.ayofixit.com/sobre-mi</loc>
+		<xhtml:link rel="alternate" hreflang="es" href="https://www.ayofixit.com/sobre-mi"/>
+		<xhtml:link rel="alternate" hreflang="en" href="https://www.ayofixit.com/en/about"/>
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://www.ayofixit.com/sobre-mi"/>
 		<lastmod>2026-10-19</lastmod>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://www.ayofixit.com/en/about.html</loc>
-		<xhtml:link rel="alternate" hreflang="es" href="https://www.ayofixit.com/sobre-mi.html"/>
-		<xhtml:link rel="alternate" hreflang="en" href="https://www.ayofixit.com/en/about.html"/>
-		<xhtml:link rel="alternate" hreflang="x-default" href="https://www.ayofixit.com/sobre-mi.html"/>
+		<loc>https://www.ayofixit.com/en/about</loc>
+		<xhtml:link rel="alternate" hreflang="es" href="https://www.ayofixit.com/sobre-mi"/>
+		<xhtml:link rel="alternate" hreflang="en" href="https://www.ayofixit.com/en/about"/>
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://www.ayofixit.com/sobre-mi"/>
 		<lastmod>2026-10-19</lastmod>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://www.ayofixit.com/preguntas-frecuentes.html</loc>
-		<xhtml:link rel="alternate" hreflang="es" href="https://www.ayofixit.com/preguntas-frecuentes.html"/>
-		<xhtml:link rel="alternate" hreflang="en" href="https://www.ayofixit.com/en/faqs.html"/>
-		<xhtml:link rel="alternate" hreflang="x-default" href="https://www.ayofixit.com/preguntas-frecuentes.html"/>
+		<loc>https://www.ayofixit.com/preguntas-frecuentes</loc>
+		<xhtml:link rel="alternate" hreflang="es" href="https://www.ayofixit.com/preguntas-frecuentes"/>
+		<xhtml:link rel="alternate" hreflang="en" href="https://www.ayofixit.com/en/faqs"/>
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://www.ayofixit.com/preguntas-frecuentes"/>
 		<lastmod>2026-10-19</lastmod>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://www.ayofixit.com/en/faqs.html</loc>
-		<xhtml:link rel="alternate" hreflang="es" href="https://www.ayofixit.com/preguntas-frecuentes.html"/>
-		<xhtml:link rel="alternate" hreflang="en" href="https://www.ayofixit.com/en/faqs.html"/>
-		<xhtml:link rel="alternate" hreflang="x-default" href="https://www.ayofixit.com/preguntas-frecuentes.html"/>
+		<loc>https://www.ayofixit.com/en/faqs</loc>
+		<xhtml:link rel="alternate" hreflang="es" href="https://www.ayofixit.com/preguntas-frecuentes"/>
+		<xhtml:link rel="alternate" hreflang="en" href="https://www.ayofixit.com/en/faqs"/>
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://www.ayofixit.com/preguntas-frecuentes"/>
 		<lastmod>2026-10-19</lastmod>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://www.ayofixit.com/contacto.html</loc>
-		<xhtml:link rel="alternate" hreflang="es" href="https://www.ayofixit.com/contacto.html"/>
-		<xhtml:link rel="alternate" hreflang="en" href="https://www.ayofixit.com/en/contact.html"/>
-		<xhtml:link rel="alternate" hreflang="x-default" href="https://www.ayofixit.com/contacto.html"/>
+		<loc>https://www.ayofixit.com/contacto</loc>
+		<xhtml:link rel="alternate" hreflang="es" href="https://www.ayofixit.com/contacto"/>
+		<xhtml:link rel="alternate" hreflang="en" href="https://www.ayofixit.com/en/contact"/>
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://www.ayofixit.com/contacto"/>
 		<lastmod>2026-10-19</lastmod>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://www.ayofixit.com/en/contact.html</loc>
-		<xhtml:link rel="alternate" hreflang="es" href="https://www.ayofixit.com/contacto.html"/>
-		<xhtml:link rel="alternate" hreflang="en" href="https://www.ayofixit.com/en/contact.html"/>
-		<xhtml:link rel="alternate" hreflang="x-default" href="https://www.ayofixit.com/contacto.html"/>
+		<loc>https://www.ayofixit.com/en/contact</loc>
+		<xhtml:link rel="alternate" hreflang="es" href="https://www.ayofixit.com/contacto"/>
+		<xhtml:link rel="alternate" hreflang="en" href="https://www.ayofixit.com/en/contact"/>
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://www.ayofixit.com/contacto"/>
 		<lastmod>2026-10-19</lastmod>
 		<priority>0.8</priority>
 	</url>
@@ -81,82 +81,82 @@
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://www.ayofixit.com/servicios/cambio-de-bateria.html</loc>
-		<xhtml:link rel="alternate" hreflang="es" href="https://www.ayofixit.com/servicios/cambio-de-bateria.html"/>
-		<xhtml:link rel="alternate" hreflang="en" href="https://www.ayofixit.com/en/services/battery-replacement.html"/>
-		<xhtml:link rel="alternate" hreflang="x-default" href="https://www.ayofixit.com/servicios/cambio-de-bateria.html"/>
+		<loc>https://www.ayofixit.com/servicios/cambio-de-bateria</loc>
+		<xhtml:link rel="alternate" hreflang="es" href="https://www.ayofixit.com/servicios/cambio-de-bateria"/>
+		<xhtml:link rel="alternate" hreflang="en" href="https://www.ayofixit.com/en/services/battery-replacement"/>
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://www.ayofixit.com/servicios/cambio-de-bateria"/>
 		<lastmod>2026-10-19</lastmod>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://www.ayofixit.com/en/services/battery-replacement.html</loc>
-		<xhtml:link rel="alternate" hreflang="es" href="https://www.ayofixit.com/servicios/cambio-de-bateria.html"/>
-		<xhtml:link rel="alternate" hreflang="en" href="https://www.ayofixit.com/en/services/battery-replacement.html"/>
-		<xhtml:link rel="alternate" hreflang="x-default" href="https://www.ayofixit.com/servicios/cambio-de-bateria.html"/>
+		<loc>https://www.ayofixit.com/en/services/battery-replacement</loc>
+		<xhtml:link rel="alternate" hreflang="es" href="https://www.ayofixit.com/servicios/cambio-de-bateria"/>
+		<xhtml:link rel="alternate" hreflang="en" href="https://www.ayofixit.com/en/services/battery-replacement"/>
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://www.ayofixit.com/servicios/cambio-de-bateria"/>
 		<lastmod>2026-10-19</lastmod>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://www.ayofixit.com/servicios/hardware-de-ordenador.html</loc>
-		<xhtml:link rel="alternate" hreflang="es" href="https://www.ayofixit.com/servicios/hardware-de-ordenador.html"/>
-		<xhtml:link rel="alternate" hreflang="en" href="https://www.ayofixit.com/en/services/computer-hardware.html"/>
-		<xhtml:link rel="alternate" hreflang="x-default" href="https://www.ayofixit.com/servicios/hardware-de-ordenador.html"/>
+		<loc>https://www.ayofixit.com/servicios/hardware-de-ordenador</loc>
+		<xhtml:link rel="alternate" hreflang="es" href="https://www.ayofixit.com/servicios/hardware-de-ordenador"/>
+		<xhtml:link rel="alternate" hreflang="en" href="https://www.ayofixit.com/en/services/computer-hardware"/>
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://www.ayofixit.com/servicios/hardware-de-ordenador"/>
 		<lastmod>2026-10-19</lastmod>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://www.ayofixit.com/en/services/computer-hardware.html</loc>
-		<xhtml:link rel="alternate" hreflang="es" href="https://www.ayofixit.com/servicios/hardware-de-ordenador.html"/>
-		<xhtml:link rel="alternate" hreflang="en" href="https://www.ayofixit.com/en/services/computer-hardware.html"/>
-		<xhtml:link rel="alternate" hreflang="x-default" href="https://www.ayofixit.com/servicios/hardware-de-ordenador.html"/>
+		<loc>https://www.ayofixit.com/en/services/computer-hardware</loc>
+		<xhtml:link rel="alternate" hreflang="es" href="https://www.ayofixit.com/servicios/hardware-de-ordenador"/>
+		<xhtml:link rel="alternate" hreflang="en" href="https://www.ayofixit.com/en/services/computer-hardware"/>
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://www.ayofixit.com/servicios/hardware-de-ordenador"/>
 		<lastmod>2026-10-19</lastmod>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://www.ayofixit.com/servicios/pc-a-medida.html</loc>
-		<xhtml:link rel="alternate" hreflang="es" href="https://www.ayofixit.com/servicios/pc-a-medida.html"/>
-		<xhtml:link rel="alternate" hreflang="en" href="https://www.ayofixit.com/en/services/custom-pc-builds.html"/>
-		<xhtml:link rel="alternate" hreflang="x-default" href="https://www.ayofixit.com/servicios/pc-a-medida.html"/>
+		<loc>https://www.ayofixit.com/servicios/pc-a-medida</loc>
+		<xhtml:link rel="alternate" hreflang="es" href="https://www.ayofixit.com/servicios/pc-a-medida"/>
+		<xhtml:link rel="alternate" hreflang="en" href="https://www.ayofixit.com/en/services/custom-pc-builds"/>
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://www.ayofixit.com/servicios/pc-a-medida"/>
 		<lastmod>2026-10-19</lastmod>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://www.ayofixit.com/en/services/custom-pc-builds.html</loc>
-		<xhtml:link rel="alternate" hreflang="es" href="https://www.ayofixit.com/servicios/pc-a-medida.html"/>
-		<xhtml:link rel="alternate" hreflang="en" href="https://www.ayofixit.com/en/services/custom-pc-builds.html"/>
-		<xhtml:link rel="alternate" hreflang="x-default" href="https://www.ayofixit.com/servicios/pc-a-medida.html"/>
+		<loc>https://www.ayofixit.com/en/services/custom-pc-builds</loc>
+		<xhtml:link rel="alternate" hreflang="es" href="https://www.ayofixit.com/servicios/pc-a-medida"/>
+		<xhtml:link rel="alternate" hreflang="en" href="https://www.ayofixit.com/en/services/custom-pc-builds"/>
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://www.ayofixit.com/servicios/pc-a-medida"/>
 		<lastmod>2026-10-19</lastmod>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://www.ayofixit.com/servicios/cambio-de-pantalla-portatil.html</loc>
-		<xhtml:link rel="alternate" hreflang="es" href="https://www.ayofixit.com/servicios/cambio-de-pantalla-portatil.html"/>
-		<xhtml:link rel="alternate" hreflang="en" href="https://www.ayofixit.com/en/services/laptop-screen-replacement.html"/>
-		<xhtml:link rel="alternate" hreflang="x-default" href="https://www.ayofixit.com/servicios/cambio-de-pantalla-portatil.html"/>
+		<loc>https://www.ayofixit.com/servicios/cambio-de-pantalla-portatil</loc>
+		<xhtml:link rel="alternate" hreflang="es" href="https://www.ayofixit.com/servicios/cambio-de-pantalla-portatil"/>
+		<xhtml:link rel="alternate" hreflang="en" href="https://www.ayofixit.com/en/services/laptop-screen-replacement"/>
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://www.ayofixit.com/servicios/cambio-de-pantalla-portatil"/>
 		<lastmod>2026-10-19</lastmod>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://www.ayofixit.com/en/services/laptop-screen-replacement.html</loc>
-		<xhtml:link rel="alternate" hreflang="es" href="https://www.ayofixit.com/servicios/cambio-de-pantalla-portatil.html"/>
-		<xhtml:link rel="alternate" hreflang="en" href="https://www.ayofixit.com/en/services/laptop-screen-replacement.html"/>
-		<xhtml:link rel="alternate" hreflang="x-default" href="https://www.ayofixit.com/servicios/cambio-de-pantalla-portatil.html"/>
+		<loc>https://www.ayofixit.com/en/services/laptop-screen-replacement</loc>
+		<xhtml:link rel="alternate" hreflang="es" href="https://www.ayofixit.com/servicios/cambio-de-pantalla-portatil"/>
+		<xhtml:link rel="alternate" hreflang="en" href="https://www.ayofixit.com/en/services/laptop-screen-replacement"/>
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://www.ayofixit.com/servicios/cambio-de-pantalla-portatil"/>
 		<lastmod>2026-10-19</lastmod>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://www.ayofixit.com/servicios/problemas-de-software.html</loc>
-		<xhtml:link rel="alternate" hreflang="es" href="https://www.ayofixit.com/servicios/problemas-de-software.html"/>
-		<xhtml:link rel="alternate" hreflang="en" href="https://www.ayofixit.com/en/services/software-troubleshooting.html"/>
-		<xhtml:link rel="alternate" hreflang="x-default" href="https://www.ayofixit.com/servicios/problemas-de-software.html"/>
+		<loc>https://www.ayofixit.com/servicios/problemas-de-software</loc>
+		<xhtml:link rel="alternate" hreflang="es" href="https://www.ayofixit.com/servicios/problemas-de-software"/>
+		<xhtml:link rel="alternate" hreflang="en" href="https://www.ayofixit.com/en/services/software-troubleshooting"/>
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://www.ayofixit.com/servicios/problemas-de-software"/>
 		<lastmod>2026-10-19</lastmod>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://www.ayofixit.com/en/services/software-troubleshooting.html</loc>
-		<xhtml:link rel="alternate" hreflang="es" href="https://www.ayofixit.com/servicios/problemas-de-software.html"/>
-		<xhtml:link rel="alternate" hreflang="en" href="https://www.ayofixit.com/en/services/software-troubleshooting.html"/>
-		<xhtml:link rel="alternate" hreflang="x-default" href="https://www.ayofixit.com/servicios/problemas-de-software.html"/>
+		<loc>https://www.ayofixit.com/en/services/software-troubleshooting</loc>
+		<xhtml:link rel="alternate" hreflang="es" href="https://www.ayofixit.com/servicios/problemas-de-software"/>
+		<xhtml:link rel="alternate" hreflang="en" href="https://www.ayofixit.com/en/services/software-troubleshooting"/>
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://www.ayofixit.com/servicios/problemas-de-software"/>
 		<lastmod>2026-10-19</lastmod>
 		<priority>0.8</priority>
 	</url>

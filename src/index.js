@@ -1,17 +1,26 @@
 // Las URLs inglesas vivian en la raiz antes de que el sitio fuese bilingue; la
-// raiz es ahora el espanol, asi que se mandan a su sitio en /en/.
+// raiz es ahora el espanol, asi que se mandan a su sitio en /en/. Los destinos
+// van sin extension para no encadenar un 301 con el 307 de auto-trailing-slash.
 const VIEJAS = {
-  "/about.html": "/en/about.html",
-  "/faqs.html": "/en/faqs.html",
-  "/contact.html": "/en/contact.html",
+  "/about.html": "/en/about",
+  "/about": "/en/about",
+  "/faqs.html": "/en/faqs",
+  "/faqs": "/en/faqs",
+  "/contact.html": "/en/contact",
+  "/contact": "/en/contact",
   "/services": "/en/services/",
   "/services/": "/en/services/",
   "/services/index.html": "/en/services/",
-  "/services/battery-replacement.html": "/en/services/battery-replacement.html",
-  "/services/computer-hardware.html": "/en/services/computer-hardware.html",
-  "/services/custom-pc-builds.html": "/en/services/custom-pc-builds.html",
-  "/services/laptop-screen-replacement.html": "/en/services/laptop-screen-replacement.html",
-  "/services/software-troubleshooting.html": "/en/services/software-troubleshooting.html",
+  "/services/battery-replacement.html": "/en/services/battery-replacement",
+  "/services/battery-replacement": "/en/services/battery-replacement",
+  "/services/computer-hardware.html": "/en/services/computer-hardware",
+  "/services/computer-hardware": "/en/services/computer-hardware",
+  "/services/custom-pc-builds.html": "/en/services/custom-pc-builds",
+  "/services/custom-pc-builds": "/en/services/custom-pc-builds",
+  "/services/laptop-screen-replacement.html": "/en/services/laptop-screen-replacement",
+  "/services/laptop-screen-replacement": "/en/services/laptop-screen-replacement",
+  "/services/software-troubleshooting.html": "/en/services/software-troubleshooting",
+  "/services/software-troubleshooting": "/en/services/software-troubleshooting",
 };
 
 export default {

@@ -15,31 +15,32 @@
 
 The site is bilingual. Spanish is the default and lives at the root; English is
 the second language and lives under /en/ with the original English slugs, one
-page for one page (e.g. /sobre-mi.html <-> /en/about.html). Each page declares
+page for one page (e.g. /sobre-mi <-> /en/about). URLs have no file
+extension; the old .html forms still work and redirect. Each page declares
 its counterpart with hreflang.
 
 ## Pages (Spanish, default)
 
 - [Home](https://www.ayofixit.com/): what AYOFixIt is, how a repair works and the main FAQs.
 - [Services](https://www.ayofixit.com/servicios/): every repair service, brands covered and how to book.
-- [Computer hardware repair](https://www.ayofixit.com/servicios/hardware-de-ordenador.html): component-level diagnostics and repair of motherboards, GPUs, drives, memory, cooling and power supplies. Most repairs 24-48h.
-- [Battery replacement](https://www.ayofixit.com/servicios/cambio-de-bateria.html): phone, laptop and tablet batteries. Phones usually within an hour, laptops two to four hours; swollen cells handled and recycled safely.
-- [Screen replacement](https://www.ayofixit.com/servicios/cambio-de-pantalla-portatil.html): laptop, phone and tablet panels, plus cheaper cable or hinge fixes for flickering screens. Same day if the panel is in stock.
-- [Software troubleshooting](https://www.ayofixit.com/servicios/problemas-de-software.html): virus removal, slow machines, boot failures, Windows and macOS reinstalls. Backup taken first, most cleanups within 24h.
-- [Custom PC builds](https://www.ayofixit.com/servicios/pc-a-medida.html): gaming rigs, editing workstations and quiet office builds, assembled and stress tested. Usually three to five working days; upgrades of existing PCs too.
-- [About](https://www.ayofixit.com/sobre-mi.html): who Ayoze is and how he works.
-- [FAQs](https://www.ayofixit.com/preguntas-frecuentes.html): prices and quotes, turnaround times, data privacy, parts, warranty, island coverage and whether a device is worth repairing.
-- [Contact](https://www.ayofixit.com/contacto.html): free quote by WhatsApp, phone or email.
+- [Computer hardware repair](https://www.ayofixit.com/servicios/hardware-de-ordenador): component-level diagnostics and repair of motherboards, GPUs, drives, memory, cooling and power supplies. Most repairs 24-48h.
+- [Battery replacement](https://www.ayofixit.com/servicios/cambio-de-bateria): phone, laptop and tablet batteries. Phones usually within an hour, laptops two to four hours; swollen cells handled and recycled safely.
+- [Screen replacement](https://www.ayofixit.com/servicios/cambio-de-pantalla-portatil): laptop, phone and tablet panels, plus cheaper cable or hinge fixes for flickering screens. Same day if the panel is in stock.
+- [Software troubleshooting](https://www.ayofixit.com/servicios/problemas-de-software): virus removal, slow machines, boot failures, Windows and macOS reinstalls. Backup taken first, most cleanups within 24h.
+- [Custom PC builds](https://www.ayofixit.com/servicios/pc-a-medida): gaming rigs, editing workstations and quiet office builds, assembled and stress tested. Usually three to five working days; upgrades of existing PCs too.
+- [About](https://www.ayofixit.com/sobre-mi): who Ayoze is and how he works.
+- [FAQs](https://www.ayofixit.com/preguntas-frecuentes): prices and quotes, turnaround times, data privacy, parts, warranty, island coverage and whether a device is worth repairing.
+- [Contact](https://www.ayofixit.com/contacto): free quote by WhatsApp, phone or email.
 
 ## Pages (English)
 
 - [Home](https://www.ayofixit.com/en/)
 - [Services](https://www.ayofixit.com/en/services/)
-- [Computer hardware repair](https://www.ayofixit.com/en/services/computer-hardware.html)
-- [Battery replacement](https://www.ayofixit.com/en/services/battery-replacement.html)
-- [Screen replacement](https://www.ayofixit.com/en/services/laptop-screen-replacement.html)
-- [Software troubleshooting](https://www.ayofixit.com/en/services/software-troubleshooting.html)
-- [Custom PC builds](https://www.ayofixit.com/en/services/custom-pc-builds.html)
-- [About](https://www.ayofixit.com/en/about.html)
-- [FAQs](https://www.ayofixit.com/en/faqs.html)
-- [Contact](https://www.ayofixit.com/en/contact.html)
+- [Computer hardware repair](https://www.ayofixit.com/en/services/computer-hardware)
+- [Battery replacement](https://www.ayofixit.com/en/services/battery-replacement)
+- [Screen replacement](https://www.ayofixit.com/en/services/laptop-screen-replacement)
+- [Software troubleshooting](https://www.ayofixit.com/en/services/software-troubleshooting)
+- [Custom PC builds](https://www.ayofixit.com/en/services/custom-pc-builds)
+- [About](https://www.ayofixit.com/en/about)
+- [FAQs](https://www.ayofixit.com/en/faqs)
+- [Contact](https://www.ayofixit.com/en/contact)

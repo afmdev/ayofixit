@@ -1,0 +1,21 @@
+# Los nombres de archivo no llevan hash, asi que el TTL es lo unico que decide
+# cuanto tarda un cambio en llegar a quien ya visito el sitio.
+
+# Las fuentes no cambian nunca: solo se sustituyen anadiendo otro archivo.
+/webfonts/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Una semana deja que una imagen reoptimizada con el mismo nombre se cure sola.
+/images/*
+  Cache-Control: public, max-age=604800
+
+/videos/*
+  Cache-Control: public, max-age=604800
+
+# CSS y JS cambian en cada despliegue: una hora es el techo de lo que tarda un
+# visitante recurrente en ver un arreglo.
+/css/*
+  Cache-Control: public, max-age=3600
+
+/js/*
+  Cache-Control: public, max-age=3600
