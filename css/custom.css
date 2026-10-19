@@ -4043,21 +4043,21 @@ header.main-header .header-sticky.active{
 	top: calc(100% + 6px);
 	right: 0;
 	z-index: 20;
-	min-width: 150px;
+	min-width: auto;
 	padding: 6px;
 	border-radius: 8px;
 	background: #fff;
 	box-shadow: 0 8px 24px rgba(0, 0, 0, 0.14);
 }
 
+/* Solo bandera: el enlace es zona de toque, asi que el relleno hace de area
+   clicable minima en vez de rodear a un texto que ya no esta. */
 .lang-switch__link {
 	display: flex;
 	align-items: center;
-	gap: 8px;
-	padding: 8px 10px;
+	justify-content: center;
+	padding: 10px 12px;
 	border-radius: 6px;
-	font-size: 14px;
-	white-space: nowrap;
 }
 
 .lang-switch__link:hover,
