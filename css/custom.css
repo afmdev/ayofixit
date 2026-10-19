@@ -6,7 +6,9 @@
 	--primary-color				: #0B2239;
 	--secondary-color			: #F4F9FE;
 	--text-color				: #5B6B7C;
-	--accent-color				: #2EA3F2;
+	--accent-strong				: #1877B8;
+	--accent-color				: var(--accent-strong);
+	--accent-on-dark			: #2EA3F2;
 	--accent-secondary-color	: #8FD0FF;
 	--accent-warm-color			: #FFD166;
 	--header-text-color			: #1E1C1A;
@@ -189,7 +191,7 @@ html.lenis body{
 	font-weight: 600;
 	line-height: 1em;
 	text-transform: capitalize;
-	background: var(--accent-color);
+	background: var(--accent-strong);
 	color: var(--white-color);
 	border: none;
 	border-radius: 10px;
@@ -411,6 +413,7 @@ html.lenis body{
 
 .dark-section{
 	background-color: var(--primary-color);
+	--accent-color: var(--accent-on-dark);
 }
 
 .dark-section .section-title-content p,
