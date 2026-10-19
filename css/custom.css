@@ -3992,3 +3992,85 @@ header.main-header .header-sticky.active{
 		text-align: center;
 	}
 }
+
+/* ===== Selector de idioma =====
+   Vive a la derecha del boton de cabecera. El <details> ya abre y cierra solo;
+   el JS solo anade cerrar al pulsar fuera y con Escape. */
+.header-btn {
+	display: flex;
+	align-items: center;
+	gap: 14px;
+}
+
+.lang-switch__box {
+	position: relative;
+}
+
+.lang-switch__toggle {
+	display: flex;
+	align-items: center;
+	gap: 6px;
+	padding: 8px 10px;
+	border: 1px solid rgba(0, 0, 0, 0.12);
+	border-radius: 6px;
+	cursor: pointer;
+	font-size: 14px;
+	line-height: 1;
+	/* El triangulo lo pinta .lang-switch__caret; el marcador nativo sobra. */
+	list-style: none;
+}
+
+.lang-switch__toggle::-webkit-details-marker {
+	display: none;
+}
+
+.lang-switch__caret {
+	width: 0;
+	height: 0;
+	border-left: 4px solid transparent;
+	border-right: 4px solid transparent;
+	border-top: 5px solid currentColor;
+	opacity: 0.6;
+}
+
+.lang-switch__flag {
+	display: block;
+	border-radius: 2px;
+}
+
+.lang-switch__panel {
+	position: absolute;
+	top: calc(100% + 6px);
+	right: 0;
+	z-index: 20;
+	min-width: 150px;
+	padding: 6px;
+	border-radius: 8px;
+	background: #fff;
+	box-shadow: 0 8px 24px rgba(0, 0, 0, 0.14);
+}
+
+.lang-switch__link {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	padding: 8px 10px;
+	border-radius: 6px;
+	font-size: 14px;
+	white-space: nowrap;
+}
+
+.lang-switch__link:hover,
+.lang-switch__link:focus-visible {
+	background: rgba(0, 0, 0, 0.05);
+}
+
+.lang-switch__link.is-current {
+	font-weight: 600;
+}
+
+/* En movil manda el enlace del menu desplegable (.nav-item-lang): el selector
+   de la cabecera se esconde con el resto del boton. */
+.nav-item-lang .nav-link::before {
+	content: "";
+}
