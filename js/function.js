@@ -8,25 +8,6 @@
 		$(".preloader").fadeOut(600);
 	});
 
-	/* Sticky Header */	
-	if($('.active-sticky-header').length){
-		$window.on('resize', function(){
-			setHeaderHeight();
-		});
-
-		function setHeaderHeight(){
-	 		$("header.main-header").css("height", $('header .header-sticky').outerHeight());
-		}	
-	
-		$window.on("scroll", function() {
-			var fromTop = $(window).scrollTop();
-			setHeaderHeight();
-			var headerHeight = $('header .header-sticky').outerHeight()
-			$("header .header-sticky").toggleClass("hide", (fromTop > headerHeight + 100));
-			$("header .header-sticky").toggleClass("active", (fromTop > 600));
-		});
-	}	
-	
 	/* Slick Menu JS */
 	$('#menu').slicknav({
 		label : '',
@@ -37,6 +18,11 @@
 	   pantalla solo anuncia "enlace". */
 	$('.slicknav_btn').attr('aria-label',
 		document.documentElement.lang === 'es' ? 'Abrir el menu' : 'Open the menu');
+
+	/* En movil el idioma va dentro del menu desplegable, no suelto en la barra.
+	   Se mueve el que ya existe en la cabecera, asi conserva sus escuchadores. */
+	$('.slicknav_nav').append(
+		$('<li class="nav-item-lang"></li>').append($('.lang-switch--movil')));
 
 	/* testimonial Slider JS */
 	if ($('.testimonial-slider').length) {

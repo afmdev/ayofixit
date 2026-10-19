@@ -528,22 +528,6 @@ header.main-header .header-sticky{
 	z-index: 100;
 }
 
-header.main-header .header-sticky.hide{
-	transform: translateY(-100%);
-	transition: transform 0.4s ease-in-out;
-}
-
-header.main-header .header-sticky.active{
-	position: fixed;
-	top: 0;
-	left: 0;
-	right: 0;
-	border-radius: 0;
-    transform: translateY(0);
-	background-color: var(--white-color);
-	border-bottom: 1px solid var(--divider-color);
-}
-
 .navbar{
 	padding: 16px 0;
 	align-items: center;
@@ -4192,7 +4176,7 @@ header.main-header .header-sticky.active{
 }
 
 /* El selector de la cabecera se va con .header-btn por debajo de 992px; esta
-   copia ocupa su sitio junto al boton de menu. */
+   copia la mueve function.js al final del menu desplegable. */
 .lang-switch--movil {
 	display: none;
 }
@@ -4200,11 +4184,26 @@ header.main-header .header-sticky.active{
 @media only screen and (max-width: 991px) {
 	.lang-switch--movil {
 		display: block;
-		margin-right: 12px;
+	}
+
+	/* Fila del menu: mismo sangrado que los enlaces y panel hacia la derecha. */
+	.slicknav_nav .nav-item-lang {
+		padding: 8px 20px;
+	}
+
+	/* El <summary> es de bloque: sin esto ocupa todo el ancho del menu. */
+	.slicknav_nav .nav-item-lang .lang-switch__toggle {
+		display: inline-flex;
+	}
+
+	.slicknav_nav li .lang-switch__link {
+		padding: 10px 12px;
+		margin: 0;
 	}
 
 	.lang-switch--movil .lang-switch__panel {
-		right: 0;
+		left: 0;
+		right: auto;
 	}
 }
 
