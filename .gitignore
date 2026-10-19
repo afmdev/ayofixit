@@ -1,2 +1,4 @@
 .DS_Store
 .codegraph/
+.wrangler/
+node_modules/

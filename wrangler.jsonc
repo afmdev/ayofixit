@@ -1,0 +1,20 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "ayofixit",
+  "main": "src/index.js",
+  "compatibility_date": "2026-10-18",
+  "workers_dev": true,
+  "assets": {
+    "directory": ".",
+    "binding": "ASSETS",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page",
+    // worker runs first so apex hits get redirected to www instead of
+    // being answered straight from the asset store
+    "run_worker_first": true
+  },
+  "routes": [
+    { "pattern": "www.ayofixit.com", "custom_domain": true },
+    { "pattern": "ayofixit.com", "custom_domain": true }
+  ]
+}
