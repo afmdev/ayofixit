@@ -21,7 +21,7 @@ import subprocess
 import sys
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
-ASSET = r'(?:css|js|images|videos)/[^"\'()?\s]+\.(?:css|js|jpg|jpeg|png|webp|svg|mp4)'
+ASSET = r'(?:css|js|images|videos|webfonts)/[^"\'()?\s]+\.(?:css|js|jpg|jpeg|png|webp|svg|mp4|woff2)'
 # href="css/x.css", src="/js/x.js", url('../images/x.webp') - con o sin sello
 IN_HTML = re.compile(r'((?:href|src|content)=")((?:\.\./|/)?%s)(?:\?v=[^"]*)?(")' % ASSET)
 IN_CSS = re.compile(r'(url\([\'"]?)((?:\.\./|/)?%s)(?:\?v=[^\'")]*)?([\'"]?\))' % ASSET)
