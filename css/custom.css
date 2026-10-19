@@ -13,6 +13,67 @@
 }
 
 /************************************/
+/***        00b. Iconos          ***/
+/************************************/
+
+/* Subconjunto de Font Awesome con los 10 glifos que usa el sitio: 1,5 KB en vez
+   de los 280 KB de all.min.css + fa-solid + fa-brands. Si anades un icono nuevo,
+   regenera los woff2 con pyftsubset anadiendo su codepoint. */
+@font-face{
+	font-family: 'Font Awesome 6 Free';
+	font-style: normal;
+	font-weight: 100 900;
+	font-display: swap;
+	src: url('../webfonts/fa-solid-subset.woff2') format('woff2');
+}
+
+@font-face{
+	font-family: 'FontAwesome';
+	font-style: normal;
+	font-weight: 100 900;
+	font-display: swap;
+	src: url('../webfonts/fa-solid-subset.woff2') format('woff2');
+}
+
+@font-face{
+	font-family: 'Font Awesome 6 Brands';
+	font-style: normal;
+	font-weight: 100 900;
+	font-display: swap;
+	src: url('../webfonts/fa-brands-subset.woff2') format('woff2');
+}
+
+.fa-solid,
+.fa-brands{
+	display: inline-block;
+	font-style: normal;
+	font-variant: normal;
+	line-height: 1;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+}
+
+.fa-solid{
+	font-family: 'Font Awesome 6 Free';
+	font-weight: 900;
+}
+
+.fa-brands{
+	font-family: 'Font Awesome 6 Brands';
+	font-weight: 400;
+}
+
+.fa-solid::before,
+.fa-brands::before{
+	content: var(--fa);
+}
+
+.fa-star{ --fa: '\f005'; }
+.fa-phone{ --fa: '\f095'; }
+.fa-envelope{ --fa: '\f0e0'; }
+.fa-facebook-f{ --fa: '\f39e'; }
+
+/************************************/
 /*** 	 01. Global Variables	  ***/
 /************************************/	
 
