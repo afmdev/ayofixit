@@ -33,6 +33,11 @@
 		prependTo : '.responsive-menu'
 	});
 
+	/* El boton que genera slicknav es un <a> sin texto: sin esto, un lector de
+	   pantalla solo anuncia "enlace". */
+	$('.slicknav_btn').attr('aria-label',
+		document.documentElement.lang === 'es' ? 'Abrir el menu' : 'Open the menu');
+
 	/* testimonial Slider JS */
 	if ($('.testimonial-slider').length) {
 		const testimonial_slider = new Swiper('.testimonial-slider .swiper', {
