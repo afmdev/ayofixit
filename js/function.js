@@ -67,10 +67,24 @@
 		});
 	}
 
-	/* Init Counter */
-	if ($('.counter').length) {
-		$('.counter').counterUp({ delay: 6, time: 3000 });
-	}
+	/* Init Counter: cuenta al entrar en pantalla, sin waypoints (forzaba reflow) */
+	document.querySelectorAll('.counter').forEach(function (el) {
+		var text = el.textContent.trim();
+		var target = parseFloat(text);
+		if (isNaN(target)) return;
+		var decimals = (text.split('.')[1] || '').length;
+		var io = new IntersectionObserver(function (entries) {
+			if (!entries[0].isIntersecting) return;
+			io.disconnect();
+			var start = performance.now();
+			(function step(now) {
+				var progress = Math.min((now - start) / 3000, 1);
+				el.textContent = (target * progress).toFixed(decimals);
+				if (progress < 1) requestAnimationFrame(step);
+			})(start);
+		});
+		io.observe(el);
+	});
 
 	/* Scroll effects: Lenis inertia, headings and images driven by scroll position */
 	if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {

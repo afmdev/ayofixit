@@ -1,21 +1,19 @@
-# Los nombres de archivo no llevan hash, asi que el TTL es lo unico que decide
-# cuanto tarda un cambio en llegar a quien ya visito el sitio.
+# El HTML se sirve con max-age=0 must-revalidate, asi que el navegador siempre
+# pide la pagina y recibe las urls selladas por tools/stamp-assets.py en el
+# despliegue (?v=<commit>). Cada despliegue cambia la url, asi que todo lo que
+# cuelga de ella se puede cachear un ano sin dejar a nadie con la version vieja.
 
-# Las fuentes no cambian nunca: solo se sustituyen anadiendo otro archivo.
 /webfonts/*
   Cache-Control: public, max-age=31536000, immutable
 
-# Una semana deja que una imagen reoptimizada con el mismo nombre se cure sola.
 /images/*
-  Cache-Control: public, max-age=604800
+  Cache-Control: public, max-age=31536000, immutable
 
 /videos/*
-  Cache-Control: public, max-age=604800
+  Cache-Control: public, max-age=31536000, immutable
 
-# CSS y JS cambian en cada despliegue: una hora es el techo de lo que tarda un
-# visitante recurrente en ver un arreglo.
 /css/*
-  Cache-Control: public, max-age=3600
+  Cache-Control: public, max-age=31536000, immutable
 
 /js/*
-  Cache-Control: public, max-age=3600
+  Cache-Control: public, max-age=31536000, immutable
