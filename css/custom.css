@@ -4074,3 +4074,46 @@ header.main-header .header-sticky.active{
 .nav-item-lang .nav-link::before {
 	content: "";
 }
+
+/* ===== Accesibilidad del selector y del menu =====
+   48px es el minimo que pide Lighthouse para un area tactil; las banderas
+   miden 20x15, asi que el tamano lo da el relleno, no el contenido. */
+.lang-switch__toggle {
+	min-height: 44px;
+	box-sizing: border-box;
+}
+
+.lang-switch__link {
+	min-width: 48px;
+	min-height: 48px;
+	box-sizing: border-box;
+}
+
+/* El boton del menu movil venia a 38px del tema. */
+.slicknav_btn {
+	width: 48px !important;
+	height: 48px !important;
+}
+
+/* El selector de la cabecera se va con .header-btn por debajo de 992px; esta
+   copia ocupa su sitio junto al boton de menu. */
+.lang-switch--movil {
+	display: none;
+}
+
+@media only screen and (max-width: 991px) {
+	.lang-switch--movil {
+		display: block;
+		margin-right: 12px;
+	}
+
+	.lang-switch--movil .lang-switch__panel {
+		right: 0;
+	}
+}
+
+@media only screen and (min-width: 992px) {
+	.lang-switch--movil {
+		display: none;
+	}
+}
